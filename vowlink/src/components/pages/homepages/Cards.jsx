@@ -45,30 +45,13 @@ const blogs = [
   },
 ];
 
-const testimonials = [
-  {
-    quote:
-      "This course changed my career path for the better! Highly recommend!",
-    name: "Jane Doe, Marketing Specialist",
-  },
-  {
-    quote:
-      "The instructors are knowledgeable and passionate. A great learning experience!",
-    name: "John Smith, Graphic Designer",
-  },
-  {
-    quote:
-      "I loved the flexibility and the content was top-notch. Will take more courses!",
-    name: "Emily Johnson, Data Analyst",
-  },
-];
+
 
 const Cards = () => {
   return (
     <div className="container mx-auto p-6">
       {/* Hero Section */}
-
-      <section className="text-gray-600 body-font">
+      {/* <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
@@ -91,24 +74,10 @@ const Cards = () => {
             />
           </div>
         </div>
-      </section>
-      {/* About Us */}
-      <section className="mb-10">
-        <h2 className="text-3xl font-bold mb-4">About Us</h2>
-        <p>
-          Welcome to [Your Organization Name], where we empower learners of all
-          ages to achieve their dreams through high-quality educational
-          resources. Our mission is to provide accessible and engaging courses
-          that inspire and equip individuals with the knowledge and skills
-          necessary for success in today’s fast-paced world. With a dedicated
-          team of experienced educators and industry professionals, we offer a
-          diverse range of subjects designed to foster growth and innovation.
-          Join us on this journey of lifelong learning and discover your
-          potential!
-        </p>
-      </section>
+      </section> */}
+      
       {/* online course section */}
-      <section className="py-8 px-4 bg-white">
+      {/* <section className="py-8 px-4 bg-white">
         <h1 className="text-3xl pb-4 font-bold text-gray-800">Online Course</h1>
 
         <div className="bg-gray-100 rounded-lg shadow-lg p-6 flex flex-col md:flex-row gap-6 items-center md:items-start">
@@ -128,10 +97,10 @@ const Cards = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Explore Courses */}
-      <section className="mb-10">
+      <section className="mb-10 mt-10">
         <h2 className="text-3xl font-bold mb-4">Explore Courses</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {courses.map((course, index) => (
@@ -170,18 +139,7 @@ const Cards = () => {
           ))}
         </div>
       </section>
-      {/* Testimonials */}
-      <section className="mb-10">
-        <h2 className="text-3xl font-bold mb-4">Testimonials</h2>
-        <div className="space-y-4">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-gray-100 p-4 rounded shadow-md">
-              <p className="italic">“{testimonial.quote}”</p>
-              <p className="font-bold mt-2">{testimonial.name}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+     
     </div>
   );
 };

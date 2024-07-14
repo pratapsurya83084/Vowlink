@@ -197,7 +197,7 @@ const Navbar = () => {
     <header>
         <nav
         aria-label="Global"
-        className="bg-gray-100 shadow-md flex items-center p-5 lg:px-8"
+        className="bg-gray-50 shadow-lg flex items-center p-5 lg:px-8"
       >
         {/* Logo */}
         <div className="flex flex-1 items-center">
