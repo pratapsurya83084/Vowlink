@@ -214,7 +214,7 @@ const Poster = () => {
      
 
       
-      <main className="container mx-auto px-6 py-12">
+      <main className="container mx-auto px-6 mt-10 py-12">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 text-center lg:text-left">
             <h1 className="text-4xl font-bold mb-4">

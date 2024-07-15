@@ -5,7 +5,7 @@ import Faq  from '../pages/homepages/FaqSection'
 import Poster   from '../pages/homepages/Poster'
 import ProgramList   from '../pages/homepages/ProgrameCourse'
 import AboutSections  from '../pages/homepages/AboutSections'
-// import TestimonialsSection  from '../pages/homepages/TestimonialsSection'
+import TestimonialsSection  from '../pages/homepages/TestimonialsSection'
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
         <ProgramList/>
         {/* <Cards/> */}
         <AboutSections/>
-        {/* <TestimonialsSection/> */}
+        <TestimonialsSection/>
       <Faq/>
       </div>
     </Layout>

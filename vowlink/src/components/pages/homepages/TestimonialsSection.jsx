@@ -53,11 +53,11 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <div className="bg-teal-600 py-16">
+    <div className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-white">We Develop The Leaders Of Tomorrow</h2>
-          <p className="text-lg text-white mt-4">Read about a few success stories that were created with [name  of organisation] Learning.</p>
+          <h2 className="text-4xl font-bold ">We Develop The Leaders Of Tomorrow</h2>
+          <p className="text-lg  mt-4">Read about a few success stories that were created with [name  of organisation] Learning.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {testimonials.map((testimonial, index) => (
