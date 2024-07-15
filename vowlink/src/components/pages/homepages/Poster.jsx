@@ -237,14 +237,14 @@ const Poster = () => {
                 <p>Courses and Programs</p>
               </div>
             </div>
-            <button className="mt-6 bg-yellow-500 text-white py-2 px-4 rounded">
+            <button className="mt-6 bg-yellow-500 text-black py-2 px-4 rounded">
               Enquire Now
             </button>
           </div>
 
           <div className="lg:w-1/2 mt-8 lg:mt-0 flex justify-center">
             <img
-              src="https://cdn.pegasus.imarticus.org/imarticus_2/imarticusheader5.webp"
+              src="https://img.freepik.com/premium-vector/little-boy-is-holding-laptop-his-hands-concept-online-learning-stay-home-home-education_531064-12029.jpg?w=826"
               alt="Career Image"
               className="w-3/4 lg:w-full"
             />
