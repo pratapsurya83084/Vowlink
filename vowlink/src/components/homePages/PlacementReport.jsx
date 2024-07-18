@@ -2,7 +2,7 @@ import React from 'react';
 
 const PlacementReport = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
+    <div className="flex flex-col items-center justify-center bg-gray-100 p-4">
       <header className="w-full flex justify-between items-center py-4 px-8 bg-white shadow-md">
         <div className="text-xl md:text-2xl font-bold">[organisation name] LEARNING | [12 YEARS]</div>
         <button className="py-2 px-4 bg-yellow-500 rounded">Login</button>
@@ -22,9 +22,9 @@ const PlacementReport = () => {
           <p className="text-sm md:text-md">Learn more about how we've been impacting thousands of careers.</p>
         </div>
         <div className="flex flex-col md:flex-row gap-4">
-          <button className="py-2 px-4 bg-green-600 text-white rounded">Download Placement Report</button>
-          <button className="py-2 px-4 bg-green-600 text-white rounded">Request a Callback</button>
-          <button className="py-2 px-4 bg-green-600 text-white rounded">Say Hi! on Whatsapp</button>
+          <button className="py-2 px-4 bg-yellow-500  rounded">Download Placement Report</button>
+          {/* <button className="py-2 px-4 bg-yellow-500  rounded">Request a Callback</button> */}
+          <button className="py-2 px-4 bg-yellow-500  rounded">Say Hi! on Whatsapp</button>
         </div>
       </main>
       

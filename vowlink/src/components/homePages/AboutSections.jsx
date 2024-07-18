@@ -12,7 +12,7 @@ const AboutSections = () => {
       <div className=" container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold">About</h2>
-          <h3 className="text-5xl font-bold text-yellow-400">
+          <h3 className="text-4xl font-bold text-yellow-400">
             [organisation name] Learning
           </h3>
         </div>

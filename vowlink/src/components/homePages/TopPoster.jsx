@@ -196,7 +196,7 @@
 import React from "react";
 
 
-const Poster = () => {
+const TopPoster = () => {
   const logos = [
     "https://cdn.pegasus.imarticus.org/imarticus_2/IIMLucknow4.webp",
     "https://cdn.pegasus.imarticus.org/imarticus_2/IIMA.png",
@@ -283,4 +283,4 @@ const Poster = () => {
   );
 };
 
-export default Poster;
+export default TopPoster;

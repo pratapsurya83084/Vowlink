@@ -51,7 +51,7 @@ const testimonials = [
   }
 ];
 
-const TestimonialsSection = () => {
+const Testimonials = () => {
   return (
     <div className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
@@ -96,7 +96,7 @@ const TestimonialsSection = () => {
           ))}
         </div>
         <div className="flex justify-center space-x-4 mt-12">
-          <button className="bg-green-800 text-white px-6 py-3 rounded-md">Request a Callback</button>
+          <button className="bg-yellow-500  px-6 py-3 rounded-md">Request a Callback</button>
           <button className="bg-white border border-green-800 text-green-800 px-6 py-3 rounded-md">Say Hi! on Whatsapp</button>
         </div>
       </div>
@@ -104,4 +104,4 @@ const TestimonialsSection = () => {
   );
 };
 
-export default TestimonialsSection;
+export default Testimonials;

@@ -1,22 +1,23 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 // import Cards from '../pages/homepages/Cards'
-import Faq  from '../pages/homepages/FaqSection'
-import Poster   from '../pages/homepages/Poster'
-import ProgramList   from '../pages/homepages/ProgrameCourse'
-import AboutSections  from '../pages/homepages/AboutSections'
-import TestimonialsSection  from '../pages/homepages/TestimonialsSection'
-import PlacementReport  from '../pages/homepages/PlacementReport'
+import Faq  from '../homePages/FaqSection'
+import TopPoster   from '../homePages/TopPoster'
+import CourseCards   from '../homePages/CourseCards'
+import AboutSections  from '../homePages/AboutSections'
+import Testimonials  from '../homePages/Testimonials'
+import PlacementReport  from '../homePages/PlacementReport'
+
 const Home = () => {
   return (
     <Layout>
       <div>
-        <Poster/>
-        <ProgramList/>
+        <TopPoster/>
+        <CourseCards/>
        
         {/* <Cards/> */}
         <AboutSections/>
-        <TestimonialsSection/>
+        <Testimonials/>
         <PlacementReport/>
       <Faq/>
       </div>
