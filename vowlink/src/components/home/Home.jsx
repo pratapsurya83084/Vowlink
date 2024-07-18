@@ -6,16 +6,18 @@ import Poster   from '../pages/homepages/Poster'
 import ProgramList   from '../pages/homepages/ProgrameCourse'
 import AboutSections  from '../pages/homepages/AboutSections'
 import TestimonialsSection  from '../pages/homepages/TestimonialsSection'
-
+import PlacementReport  from '../pages/homepages/PlacementReport'
 const Home = () => {
   return (
     <Layout>
       <div>
         <Poster/>
         <ProgramList/>
+       
         {/* <Cards/> */}
         <AboutSections/>
         <TestimonialsSection/>
+        <PlacementReport/>
       <Faq/>
       </div>
     </Layout>

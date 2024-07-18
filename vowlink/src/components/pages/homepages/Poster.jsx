@@ -259,17 +259,21 @@ const Poster = () => {
 <section className="bg-white py-1">
         <div className="container mx-auto px-2 text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 py-10 ">We’ve Partnered With Leading Institutions And Corporations</h2>
-          <div className="relative h-12 w-full flex overflow-hidden">
+        
+          <div className=" h-12 w-full flex overflow-hidden">
+          <div className=" flex" style={{ animation: `scroll 20s linear infinite` }}>
             {logos.map((logo, index) => (
-              <div key={index} className={`inline-block animate-scroll-${index + 1}`}>
-                <img
-                  src={logo}
-                  alt={`Partner ${index + 1}`}
-                  className="bg-gray-100 rounded h-12 m-2 mx-10"
-                />
-              </div>
+              <img
+                key={index}
+                src={logo}
+                alt={`Partner ${index + 1}`}
+                className="bg-gray-100 rounded h-12 m- mx-10"
+                style={{ animationDelay: `-${index}s`, marginLeft: '20px' }}
+              />
             ))}
           </div>
+          </div>
+        
         </div>
       </section>
 

@@ -4,61 +4,16 @@
 
 
 @keyframes scroll {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+  100% {
+    transform: translateX(-100%);
   }
-  
-  .logo-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .animate-scroll-1 {
-    animation: scroll 5s linear infinite;
-  }
-  
-  .animate-scroll-2 {
-    animation: scroll 5s linear infinite;
-    animation-delay: 2s;
-  }
-  
-  .animate-scroll-3 {
-    animation: scroll 5s linear infinite;
-    animation-delay: 4s;
-  }
-  
-  .animate-scroll-4 {
-    animation: scroll 5s linear infinite;
-    animation-delay: 6s;
-  }
-  
-  .animate-scroll-5 {
-    animation: scroll 5s linear infinite;
-    animation-delay: 8s;
-  }
-  
-  .animate-scroll-6 {
-    animation: scroll 5s linear infinite;
-    animation-delay: 10s;
-  }
-  
-  .animate-scroll-7 {
-    animation: scroll 5s linear infinite;
-    animation-delay: 12s;
-  }
-  
-  .animate-scroll-8 {
-    animation: scroll 5s linear infinite;
-    animation-delay: 14s;
-  }
-  
-  .animate-scroll-9 {
-    animation: scroll 5s linear infinite;
-    animation-delay: 16s;
-  }
+}
+
+/* Add more classes for each logo as needed */
