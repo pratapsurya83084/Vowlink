@@ -13,23 +13,25 @@ const AboutSections = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold">About</h2>
           <h3 className="text-4xl font-bold text-yellow-400">
-            [organisation name] Learning
+           Vowlink Learning
           </h3>
         </div>
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="text-lg">
-            [organisation name] Learning is an award-winning ed-tech company offering
-            finance, analytics, technology, and marketing courses. We are a
-            classroom and online training institute that provides certification
-            programs, interview-guaranteed, executive and university-assured
-            courses.
+          AT VL Academy, we wholeheartedly believe in the power
+           of skills to transform futures and careers. Our company 
+           is dedicated to providing high-quality, comprehensive skill 
+           courses which are designed by our experts 
+          to meet the demands of todays’ dynamic job market.
           </p>
           <p className="text-lg mt-4">
-            Our vision is to prepare the global community with the best
-            educational programs for the new-age market. We are present
-            globally, and in India, we have our centres in Mumbai, Thane, Pune,
-            Ahmedabad, Jaipur, Delhi, Gurgaon, Noida, Patna, Lucknow, Dehradun,
-            Bangalore, Chennai, Hyderabad, Coimbatore, Cochin, and Kolkata.
+          At VL, we have special tailored programs to meet
+           your requirements, be it for you to enhance your
+            professional skill-set, switch careers or if you
+             are someone who is looking forward to starting 
+             one’s professional life.
+              Our company is driven by the three basic principles: ( yet to add )
+
           </p>
         </div>
         <div className="flex flex-col  sm:flex-row justify-center space-x-16 mb-12">
@@ -44,11 +46,11 @@ const AboutSections = () => {
           </div>
         </div>
         <div className="flex justify-center space-x-4">
-          <button className="bg-yellow-400 text-black px-6 py-3 rounded-md">
+          {/* <button className="bg-yellow-400 text-black px-6 py-3 rounded-md">
             Request a Callback
-          </button>
+          </button> */}
           <button className="bg-  border border-yellow-400 text-yellow-400 px-6 py-3 rounded-md">
-            Say Hi! on Whatsapp
+         Learn more about
           </button>
         </div>
       </div>

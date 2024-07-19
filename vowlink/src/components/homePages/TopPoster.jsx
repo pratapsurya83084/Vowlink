@@ -58,37 +58,21 @@ const ToPoster=()=> {
     <div className=" mt-10 md:mt-10 flex flex-col  bg-white text-black">
      
       
-      <main className="flex flex-col items-center justify-center flex-grow py-16 px-4">
-      
-        <h1 className="text-4xl lg:text-5xl font-bold text-center">Think Fast and Made Simple</h1>
-        <p className="text-center mt-4 mb-8">Linguistic Educational Franchise - There is no substitute, Think globally act locally</p>
-        <button className="border border-blue-500 text-blue-500 px-4 py-2 rounded">Get Started</button>
-        
-      </main>
-      
+     <main className="flex flex-col items-center mt-5 justify-center flex-grow py-0 px- relative">
+    <img src="/vowlink_bg_image.avif"
+         className="object-cover object-center h-full opacity-70 md:h-[500px] lg:h-[550px] xl:h-[600px] 2xl:h-[600px] w-full"
+         alt="Learning Course Image" />
+    <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-70 backdrop-blur-xs" style={{ zIndex: 10 }}>
+        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-center">“Harness your skill-set with us”</h1>
+        <p className="text-center mt-4 mb-8 text-xl sm:text-2xl text-black px-2 font-bold">
+            “Global platform providing quality vocational courses and education”
+        </p>
+        {/* <button className="border mt-5 border-blue-500 bg-yellow-400 text-black px-5 md:px-10 py-2 rounded">Get Started</button> */}
+    </div>
+</main>
 
-      {/* text and right-side imag */}
-<div className='bg-gray-50 px-4 py-10 gap-10 md:flex justify-center'>
-  {/* left text */}
-  <div className='text-center md:text-left md:mt-10'>
-<h1 className='py-2 text-2xl font-bold '>Quality Education . . . By Any Means Necessary.</h1>
-<p className='py-2 '>
-   We teach, model, and encourage a love of learning ,collaboration 
-    and compassion for <br /> others by overcoming
-    linguistic barrier.
 
-</p>
-<button className='py-2  bg-yellow-400  rounded  px-6'>Sign Up</button>
-  </div>
-{/* right side image */}
-<div className='flex justify-center mt-10 md:mt-0'>
-  <img   
-  className='h-60'
-  src="https://franchising.bisjhintus.com/img/hero.svg" alt="" />
 
-{/* https://img.freepik.com/premium-vector/little-boy-is-holding-laptop-his-hands-concept-online-learning-stay-home-home-education_531064-12029.jpg?w=826 */}
-</div>
-</div>
     </div>
   );
 }

@@ -7,17 +7,29 @@ import AboutSections  from '../homePages/AboutSections'
 import Testimonials  from '../homePages/Testimonials'
 import PlacementReport  from '../homePages/PlacementReport'
 import ImageAndTextSection  from  '../homePages/ImageAndTextSection'
+import WhyChoosevl  from '../homePages/WhyChoosevl'
+import Twobuttons  from '../homePages/Twobuttons'
+import SuccessStory  from '../homePages/SuccessStory'
+import Statistics  from  '../homePages/Statistics'
+import Enroll from '../homePages/Enroll'
 const Home = () => {
   return (
     <Layout>
       <div>
         <TopPoster/>
-        <ImageAndTextSection/>
+        <Twobuttons/>
+        {/* <ImageAndTextSection/> */}
        
         {/* <Cards/> */}
         <AboutSections/>
+        <WhyChoosevl/>
         <Testimonials/>
-        <PlacementReport/>
+        <Statistics/>
+        <SuccessStory/>
+        <Enroll/>
+       
+       
+        {/* <PlacementReport/> */}
       <Faq/>
       </div>
     </Layout>
