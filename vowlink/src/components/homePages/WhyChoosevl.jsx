@@ -3,7 +3,8 @@ import React from 'react';
 
 const WhyChoosevl = () => {
   return (
-    <div className="bg-gray-100 py-14  px-4 sm:px-6 lg:px-8">
+    // bg-gray-100
+    <div className=" py-14  px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-extrabold ">Why Choose VL Academy?</h2>
       </div>

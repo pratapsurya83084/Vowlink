@@ -12,6 +12,9 @@ import Twobuttons  from '../homePages/Twobuttons'
 import SuccessStory  from '../homePages/SuccessStory'
 import Statistics  from  '../homePages/Statistics'
 import Enroll from '../homePages/Enroll'
+import StudentSupportServices  from '../homePages/StudentSupportServices'
+import EventAcademy  from '../homePages/EventAcademy'
+
 const Home = () => {
   return (
     <Layout>
@@ -25,12 +28,14 @@ const Home = () => {
         <WhyChoosevl/>
         <Testimonials/>
         <Statistics/>
+        <StudentSupportServices/>
         <SuccessStory/>
         <Enroll/>
        
        
         {/* <PlacementReport/> */}
-      <Faq/>
+      {/* <Faq/> */}
+      <EventAcademy/>
       </div>
     </Layout>
   );

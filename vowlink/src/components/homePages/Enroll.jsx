@@ -14,10 +14,12 @@ const EnrollmentAndAdmissions = () => {
             </p>
             <div className="mt-6 flex gap-4">
               <button 
-                href="#enroll"
-                className="inline-block px-6 py-3 text-base font-medium text-white bg-indigo-600 rounded-md shadow hover:bg-indigo-700"
+               
+                className="inline-block px-10 py-3 text-base font-medium
+                 text-
+                 bg-yellow-400 rounded-md shadow "
               >
-                Enroll Now
+                Apply Now
               </button>
               {/* <a 
                 href="#admissions"

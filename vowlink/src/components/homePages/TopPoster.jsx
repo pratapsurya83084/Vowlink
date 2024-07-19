@@ -63,9 +63,9 @@ const ToPoster=()=> {
          className="object-cover object-center h-full opacity-70 md:h-[500px] lg:h-[550px] xl:h-[600px] 2xl:h-[600px] w-full"
          alt="Learning Course Image" />
     <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-70 backdrop-blur-xs" style={{ zIndex: 10 }}>
-        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-center">“Harness your skill-set with us”</h1>
+        <h1 className="text-3xl sm:text-4xl lg:text-7xl font-bold text-center">Harness your skill-set with us</h1>
         <p className="text-center mt-4 mb-8 text-xl sm:text-2xl text-black px-2 font-bold">
-            “Global platform providing quality vocational courses and education”
+            Global platform providing quality vocational courses and education
         </p>
         {/* <button className="border mt-5 border-blue-500 bg-yellow-400 text-black px-5 md:px-10 py-2 rounded">Get Started</button> */}
     </div>
