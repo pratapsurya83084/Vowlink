@@ -10,7 +10,7 @@ const stats = [
 
 const FirstSection = () => {
   return (
-    <section className=" mt-0 py-32  ">
+    <section className=" mt-0 pt-32  ">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Franchise Opportunities</h1>
