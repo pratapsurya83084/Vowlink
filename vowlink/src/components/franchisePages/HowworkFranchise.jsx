@@ -66,7 +66,7 @@ const Step = ({ step, index }) => (
 
 const FranchiseProcess = () => (
   <section className="bg-white py-16 block justify-center ">
-     <h2 className="text-3xl md:text-4xl font-bold mb- text-center">How It Works</h2>
+     <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">How It Works</h2>
     <div className="lg:flex justify-center items-center ">
     
       <div className="w-full  hidden lg:flex justify-center  mb-12 lg:mb-0">
