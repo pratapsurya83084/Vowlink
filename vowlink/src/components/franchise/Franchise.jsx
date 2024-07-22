@@ -4,6 +4,8 @@ import FirstSection from '../franchisePages/FirstSection'
 import AboutSection from '../franchisePages/AboutSection'
 import Benefits  from '../franchisePages/Benefits'
 import FranchiseProcess  from '../franchisePages/HowworkFranchise'
+import FranchiseComparison  from '../franchisePages/FranchiseCompare'
+import VidioSection  from '../franchisePages/VidioSection'
 const Franchise = () => {
   return (
     <Layout>
@@ -15,6 +17,8 @@ const Franchise = () => {
 
      <Benefits/>
     <FranchiseProcess/>
+    <VidioSection/>
+    <FranchiseComparison/>
     </div>
     </Layout>
   )

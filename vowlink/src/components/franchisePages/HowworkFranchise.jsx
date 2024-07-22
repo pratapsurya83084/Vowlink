@@ -52,40 +52,36 @@ const steps = [
   { title: "Step 5: Launch", description: "Launch your franchise with our ongoing support and marketing assistance to ensure a successful start.", color: "bg-purple-500" },
 ];
 
-const Step = ({ step, index }) => (
-  <div className="flex items-start mb-12 max-w-md w-full">
-    <div className={`w-16 h-16 flex items-center justify-center ${step.color} text-white rounded-full text-xl font-bold flex-shrink-0`}>
-      <span>{index + 1}</span>
-    </div>
-    <div className="ml-6 w-full">
-      <h3 className="text-lg md:text-xl font-semibold mb-2 text-left">{step.title}</h3>
-      <p className="text-gray-600 text-sm text-left">{step.description}</p>
-    </div>
-  </div>
-);
-
 const FranchiseProcess = () => (
-  <section className="bg-white py-16 block justify-center ">
-     <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">How It Works</h2>
+  <section className="bg-white px-4 py-16 block justify-center ">
+    <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">How It Works</h2>
     <div className="lg:flex justify-center items-center ">
-    
-      <div className="w-full  hidden lg:flex justify-center  mb-12 lg:mb-0">
-        <img src="/franchiise_work_image.avif" alt="Franchise Process" 
-        className="w-full h-[500px] lg:w-[600px] xl:h-[700px] rounded-lg" />
+      <div className="w-full hidden lg:flex justify-center mb-12 lg:mb-0">
+        <img
+          src="/franchiise_work_image.avif"
+          alt="Franchise Process"
+          className="w-full h-[500px] lg:w-[600px] xl:h-[700px] rounded-lg"
+        />
       </div>
-
-      <div className="w-full  text-center lg:text-left">
-       
+      <div className="w-full text-center lg:text-left">
         <div className="flex flex-col items-center justify-center">
           {steps.map((step, index) => (
-            <Step key={index} step={step} index={index} />
+            <div className="flex items-start mb-12 max-w-md w-full" key={index}>
+              <div
+                className={`w-16 h-16 flex items-center justify-center ${step.color} text-white rounded-full text-xl font-bold flex-shrink-0`}
+              >
+                <span>{index + 1}</span>
+              </div>
+              <div className="ml-6 w-full">
+                <h3 className="text-lg md:text-xl font-semibold mb-2 text-left">{step.title}</h3>
+                <p className="text-gray-600 text-sm text-left">{step.description}</p>
+              </div>
+            </div>
           ))}
         </div>
       </div>
-
     </div>
   </section>
 );
 
 export default FranchiseProcess;
-
