@@ -19,8 +19,10 @@ const AboutSection = () => (
     <div className='flex justify-center items-center '>
       <img 
       className='h-[500px]'
-      src="\about_franchise_imgae.avif" alt="" />
-    </div>
+      // src="\about_franchise_imgae.avif" alt="" />
+    src='https://img.freepik.com/free-vector/teamwork-concept-landing-page_23-2148240859.jpg?t=st=1721665710~exp=1721669310~hmac=56f7d17573501b1b0b9d13424916d6015749c998d492e7e16c1e37e8444f48df&w=740'/>
+    
+      </div>
     
 
 

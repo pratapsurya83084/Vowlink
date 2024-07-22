@@ -12,7 +12,7 @@ const EnrollmentAndAdmissions = () => {
             <p className="mt-4 text-lg text-gray-600">
               Our courses are designed to equip you with the skills and knowledge needed to excel in your career. With flexible learning options and expert instructors, you can start your journey towards success today.
             </p>
-            <div className="mt-6 flex gap-4">
+            <div className="mt-6 flex justify-center sm:justify-start gap-4">
               <button 
                
                 className="inline-block px-10 py-3 text-base font-medium
