@@ -50,8 +50,15 @@
 
 
 /* footer css below code */
+.hover-zoom img {
+  transition: transform 0.3s ease-in-out;
+}
 
-:root {
+.hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/* :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -168,4 +175,4 @@
   box-sizing: content-box;
   padding-top: 100px;
   padding-bottom: 20px;
-}
+} */
