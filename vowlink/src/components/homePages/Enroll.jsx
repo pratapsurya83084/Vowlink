@@ -10,7 +10,11 @@ const EnrollmentAndAdmissions = () => {
           <div className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Join VL Academy Today</h2>
             <p className="mt-4 text-lg text-gray-600">
-              Our courses are designed to equip you with the skills and knowledge needed to excel in your career. With flexible learning options and expert instructors, you can start your journey towards success today.
+            Our courses are designed to give you the
+             exact skills employers crave. With flexible learning
+              and expert guidance, you'll gain the edge you need to succeed. 
+              Don't just dream it, achieve it. Enroll today and 
+            start your journey to career greatness.
             </p>
             <div className="mt-6 flex justify-center sm:justify-start gap-4">
               <button 

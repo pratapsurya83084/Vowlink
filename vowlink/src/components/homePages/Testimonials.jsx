@@ -4,49 +4,51 @@ const testimonials = [
   {
     name: "Sahil Thakur",
     title: "PGA",
-    testimonial: "[[name  of organisation]] Learning offers the best data science education. Thank you for the effort you put in during the pandemic. It is my pleasure to thank the management, the trainers, the placement team, and all those involved with the institute.",
-    rating: 5
+    testimonial: "Vowlink was my career lifeline! I switched from finance to tech, and their courses were instrumental. The practical knowledge and expert guidance helped me land my dream job. Highly recommend!",
+    rating: 4.3
   },
   {
     name: "Pavani Iytla",
     title: "CIBOP",
-    testimonial: "Thanks to [name  of organisation], I was placed with State Street Bank where I can contribute to my professional development in the most effective manner. Because of my interest in finance, I took the plunge into Investment Banking, and [name  of organisation] made it possible.",
+    testimonial:"I wanted to level up my marketing skills, and Vowlink delivered. The courses were engaging and informative. I've already seen a significant improvement in my work performance.",
     rating: 4.6
   },
   {
     name: "Aman Sinha",
     title: "FAP",
-    testimonial: "I am grateful to the training and placement department of [name  of organisation] Learning for their ongoing efforts in imparting quality training and providing opportunities for placement. I can't express how much your support helped me secure a job.",
+    testimonial:"As a new grad, Vowlink gave me the confidence to enter the job market. Their courses covered everything from resume building to interview skills. I landed a great job within months!",
     rating: 5
   },
   {
     name: "Komal Boraste",
     title: "PGA",
-    testimonial: "With [name  of organisation] Learning, I have completed a postgraduate program in Data Analytics. Overall, I had a positive learning experience. The faculty is very knowledgeable and supportive as well. With the help of the soft skill sessions and much more.",
+    testimonial: "I needed to stay relevant in my field. Vowlink's courses were the perfect solution. The content was up-to-date and the platform was easy to use. Definitely worth the investment.",
+
     rating: 4.9
   },
   {
     name: "Rudraksh Gandhi",
     title: "CIBOP",
-    testimonial: "Being a part of [name  of organisation] Learning has been a great experience.",
+    testimonial: "Vowlink's flexible learning format was a game-changer for me as a remote worker. I could balance work, family, and skill development seamlessly. Great platform!",
+
     rating: 4.5
   },
   {
     name: "Ajay Rautela",
     title: "FAP",
-    testimonial: "I am grateful to be a part of [name  of organisation] Learning.",
+    testimonial: "I was impressed by the quality of Vowlink's courses considering the affordable price. The instructors were knowledgeable and the content was practical. Best value for money!",
     rating: 4.7
   },
   {
     name: "Bipasha Sikarwar",
     title: "PGA",
-    testimonial: "After completing graduation in B.Com I joined [name  of organisation] Learning.",
+    testimonial: "The Vowlink community is amazing! I connected with other learners who were going through the same journey. The support and encouragement were invaluable.",
     rating: 4.8
   },
   {
     name: "Prasanna Kumar Rout",
     title: "CIBOP",
-    testimonial: "With [name  of organisation], I gained a lot of knowledge and skills.",
+    testimonial: "I tracked my progress using Vowlink's assessment tools and saw a clear improvement in my skills. The platform provides the resources and support to help you succeed.",
     rating: 4.6
   }
 ];
@@ -56,8 +58,12 @@ const Testimonials = () => {
     <div className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold ">We Develop The Leaders Of Tomorrow</h2>
-          <p className="text-lg  mt-4">Read about a few success stories that were created with [name  of organisation] Learning.</p>
+          <h2 className="text-4xl font-bold ">
+          The Vowlink Hall of Fame
+            </h2>
+          <p className="text-lg  mt-4">
+          Our learners can't stop raving. Discover why.
+            </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {testimonials.map((testimonial, index) => (

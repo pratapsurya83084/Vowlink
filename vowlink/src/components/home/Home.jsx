@@ -14,7 +14,7 @@ import Statistics  from  '../homePages/Statistics'
 import Enroll from '../homePages/Enroll'
 import StudentSupportServices  from '../homePages/StudentSupportServices'
 import EventAcademy  from '../homePages/EventAcademy'
-
+// import HeadingTestimonial   from '../homePages/HeadingTestimonial'
 const Home = () => {
   return (
     <Layout>
@@ -26,10 +26,11 @@ const Home = () => {
         {/* <Cards/> */}
         <AboutSections/>
         <WhyChoosevl/>
+       
         <Testimonials/>
         <Statistics/>
         <StudentSupportServices/>
-        <SuccessStory/>
+        {/* <SuccessStory/> */}
         <Enroll/>
        
        

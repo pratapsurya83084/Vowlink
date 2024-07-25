@@ -25,7 +25,9 @@ const EventAcademy = () => {
     
       return (
         <div className="container mx-auto py-12">
-            <h1 className='text-center text-3xl font-bold py-4 pb-10'>NEWS AND EVENTS FROM THE ACADEMY</h1>
+            <h1 className='text-center text-3xl font-bold py-4 pb-10'>
+            Curious about what's happening at the Academy? Stay tuned for exciting news and events!
+              </h1>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index} className="flex justify-center">
