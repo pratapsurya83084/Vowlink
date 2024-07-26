@@ -10,10 +10,11 @@ const Navbar = () => {
 
   return (
     <header>
+      {/* fixed */}
       <nav
   aria-label="Global"
-  className="bg-gray-50 shadow-lg flex items-center p-5 lg:px-8
-   fixed top-0 w-full"
+  className="bg-gray-50  shadow-lg flex items-center p-7 lg:px-8
+    top-0 w-full"
 >
   {/* Logo */}
   <div className="flex flex-1 items-center">
@@ -36,7 +37,7 @@ const Navbar = () => {
   </div>
 
   {/* Large menu links */}
-  <div className="hidden lg:flex lg:flex-1 lg:mr-[400px] xl:mr-[750px] lg:gap-x-12">
+  <div className="hidden m-3 lg:flex lg:flex-1 lg:mr-[400px] xl:mr-[750px] lg:gap-x-12">
     <Link to="/" className="hover:text-gray-800 lg:text-[17px]">
       Home
     </Link>

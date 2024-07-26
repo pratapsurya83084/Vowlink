@@ -2,7 +2,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
+body{
+  background-color: #683695;
+}
 @keyframes scroll {
   0% {
     transform: translateX(0);

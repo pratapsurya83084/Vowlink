@@ -80,13 +80,6 @@ const AboutSections = () => {
                 today's job market, we offer expertly designed programs
                 tailored to meet the evolving demands of various career
                 stages.
-              </p>
-            </div>
-          </div>
-          <div className="transform transition duration-500 hover:scale-105">
-            <div className="bg-white text-black p-8 rounded-xl shadow-lg bg-opacity-70 hover:bg-opacity-90 transition duration-500 h-72 flex items-center justify-center">
-              {/* <h4 className="text-2xl font-semibold mb-4">Our Vision</h4> */}
-              <p className="text-lg text-center">
                 Whether you're aiming to enhance your existing skill set,
                 embark on a career change, or just starting your professional
                 journey, Vowlink Learning has a program designed specifically
@@ -96,10 +89,22 @@ const AboutSections = () => {
               </p>
             </div>
           </div>
+         
+                {/* Whether you're aiming to enhance your existing skill set,
+                embark on a career change, or just starting your professional
+                journey, Vowlink Learning has a program designed specifically
+                for you. Our commitment lies in providing engaging and unique
+                learning experiences that equip individuals with the necessary
+                skills to succeed in their chosen paths. */}
+            
+          <div className="flex justify-center items-center">
+            <p></p>
+            <p></p>
+          </div>
         </div>
         <div className="text-center">
           <button className="bg-yellow-400 text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-500 transition duration-300 ease-in-out transform hover:scale-105">
-            Learn More About Us
+         Learn More
           </button>
         </div>
       </div>
