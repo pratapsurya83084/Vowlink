@@ -79,6 +79,7 @@ const AboutSections = () => {
             Vowlink Learning is dedicated to transforming lives with high-quality, comprehensive courses designed to meet the evolving demands of the job market. Whether you’re advancing your skills, changing careers, or starting out, our expertly crafted programs offer unique learning experiences tailored to your needs. Equip yourself with the skills to succeed with Vowlink Learning.
           </p>
         </div>
+        {/* md:w-1/2 */}
         <div className="mt-6 md:mt-0 md:w-1/2 mr- h-60 w-80 md:h-96 flex justify-left">
           <img src="/posterimage_vowlink.png" alt="Vowlink Learning" className="w-full max-w-lg rounded-lg" />
         </div>
