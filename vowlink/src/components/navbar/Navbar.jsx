@@ -13,13 +13,14 @@ const Navbar = () => {
       {/* fixed */}
       <nav
   aria-label="Global"
-  className="bg-gray-50  shadow-lg flex items-center p-7 lg:px-8
+  // bg-gray-50
+  className=" bg-[#0c9db3] text-white   shadow-lg flex items-center p-7 lg:px-8
     top-0 w-full"
 >
   {/* Logo */}
   <div className="flex flex-1 items-center">
     <Link to="/" className="-m-1.5 p-1.5">
-      <span className="sr-only">vowlink Company</span>
+      <span className="sr-only ">vowlink Company</span>
       vowlink logo
     </Link>
   </div>
