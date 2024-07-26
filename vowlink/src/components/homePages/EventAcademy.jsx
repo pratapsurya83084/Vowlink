@@ -25,9 +25,9 @@ const EventAcademy = () => {
     
       return (
         <div className="container mx-auto py-12">
-            <h1 className='text-center text-5xl font-bold py-4 pb-10'>
+            <h1 className='text-center text-3xl md:text-5xl text-white font-bold py-4 pb-10'>
             Curious about what's happening at the Academy? <br />
-            <p className='text-2xl'> Stay tuned for exciting news and events!</p>
+            <p className='text-2xl text-white mt-2'> Stay tuned for exciting news and events!</p>
               </h1>
       <Slider {...settings}>
         {images.map((image, index) => (

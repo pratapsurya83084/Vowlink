@@ -271,36 +271,29 @@ const Testimonials = () => {
   };
 
   return (
-    <section  className="">
-      <h1 className="smooth-scroll carousel-section bg-yellow-200 ml-6 sm:ml-8 md:ml-10 mt-10 rounded-tl-xl rounded-tr-xl text-black font-bold inline-block p-1 px-4">
-      The Vowlink Hall of Fame  <br />
+    <section  className="px-10">
+      <h1 className=" text-center  mt-10 rounded-tl-xl rounded-tr-xl text-white font-bold  p-1 px-4">
+      <p className='text-2xl md:text-4xl'>The Vowlink Hall of Fame</p>  <br />
       Our learners can't stop raving. Discover why.
       </h1>
-      <div className="image-carousel-section flex justify-center items-center w-full radius-yellow p-4 h-32 sm:h-32 md:h-36 lg:h-36 xl:h-36 2xl:h-40 rounded-3xl bg-custom-brown">
+      <div className="image-carousel-section mt-20 flex  px-10 justify-center items-center w-full radius-yellow p-4 h-32 sm:h-32 md:h-36 lg:h-36 xl:h-36 2xl:h-40 rounded-3xl bg-custom-brown">
         <Slider {...settings} className="flex p-2 w-full">
           {/* First slide */}
           <div className="p-2">
             <div className="flex justify-center items-center gap-4">
-              <div className="w-1/3 flex justify-center">
-                <img
-                  className="smooth-scroll  h-20 md:h-28 max-w-full"
-                  src="/BBC_News-Logo.wine.png"
-                  alt="Slide 1"
-                />
+              
+              
+              <div className="w-1/3 flex flex-col justify-center bg-white rounded-lg p-4">
+              <h1>Name:</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius beatae enim rem nemo tempore amet inventore adipisci saepe consectetur! Culpa praesentium quas accusamus quibusdam debitis corporis ipsum recusandae ut eaque.</p>
               </div>
-              <div className="w-1/3 flex justify-center">
-                <img
-                  className="smooth-scroll  h-14 md:h-20 max-w-full"
-                  src="/sky_news_img.jpg"
-                  alt="Slide 2"
-                />
+              <div className="flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
+              <h1>Name:</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius beatae enim rem nemo tempore amet inventore adipisci saepe consectetur! Culpa praesentium quas accusamus quibusdam debitis corporis ipsum recusandae ut eaque.</p>
               </div>
-              <div className="w-1/3 flex justify-center">
-                <img
-                  className="smooth-scroll  h-14 md:h-20 max-w-full"
-                  src="/timesof_india.jpg"
-                  alt="Slide 3"
-                />
+              <div className="flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
+              <h1>Name:</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius beatae enim rem nemo tempore amet inventore adipisci saepe consectetur! Culpa praesentium quas accusamus quibusdam debitis corporis ipsum recusandae ut eaque.</p>
               </div>
             </div>
           </div>
@@ -308,26 +301,17 @@ const Testimonials = () => {
           {/* Second slide */}
           <div className="p-2">
             <div className="flex justify-center items-center gap-4">
-              <div className="w-1/3 flex justify-center">
-                <img
-                  className="smooth-scroll  h-12 md:h-18 max-w-full"
-                  src="/the_hindu_newsimg.webp"
-                  alt="Slide 4"
-                />
+              <div className="flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
+               <h1>Name:</h1>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt culpa, dignissimos eaque quas consequuntur vero eos veniam, laudantium et maxime sapiente perferendis. Mollitia eveniet dolore quae at distinctio alias accusantium!</p>
               </div>
-              <div className="w-1/3 flex justify-center">
-                <img
-                  className="smooth-scroll  h-14 md:h-20 max-w-full"
-                  src="/gulf_news_img.png"
-                  alt="Slide 5"
-                />
+              <div className="flex flex-col w-1/3  justify-center  bg-white rounded-lg p-4">
+              <h1>Name:</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum id nulla vero quibusdam provident vitae. Distinctio nemo quisquam deserunt voluptatum temporibus ipsa officiis minus, possimus natus minima! In, magni?</p>
               </div>
-              <div className="w-1/3 flex justify-center">
-                <img
-                  className="smooth-scroll  h-12 md:h-18 max-w-full"
-                  src="/britan_new_img.jpg"
-                  alt="Slide 6"
-               />
+              <div className=" flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
+              <h1>Name:</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt animi veniam autem. Nihil incidunt itaque inventore, laudantium error est quae, odio vitae nulla numquam earum quo eum architecto ullam.</p>
               </div>
             </div>
           </div>
@@ -335,27 +319,26 @@ const Testimonials = () => {
           {/* Third slide */}
           <div className="p-2">
             <div className="flex justify-center items-center gap-4">
-              <div className="w-1/3 flex justify-center">
-                <img
-                  className="smooth-scroll  h-12 md:h-18 max-w-full"
-                  src="/euronews-logo-768x230.jpg"
-                  alt="Slide 7"
-                />
+              <div className="flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
+              <h1>Name:</h1>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dolore quibusdam animi alias? Atque est tempora facilis illo sequi iusto a error omnis suscipit, ullam quasi aliquid ea voluptates molestias!</p>
               </div>
-              <div className="w-1/3 flex justify-center">
-                <img
-                  className="smooth-scroll  h-14 md:h-20 max-w-full"
-                  src="/news18_img.jpg"
-                  alt="Slide 8"
-        />
+              <div className="flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
+              <h1>Name:</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cumque hic dolores et, odit consequatur consectetur dolor aliquid nisi obcaecati iusto? Consequuntur eligendi optio nesciunt sapiente non voluptas neque rerum.</p>
               </div>
-              <div className="w-1/3 flex justify-center">
-                <img
+              <div className="flex flex-col w-1/3 
+               justify-center bg-white rounded-lg p-4">
+                <h1>Name:</h1>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quae eligendi nam, neque corrupti eos temporibus exercitationem voluptatem sequi consectetur repellat doloribus quasi vero quibusdam numquam. Dolores laudantium voluptates porro?
+
+               </p>
+                {/* <img
                   className="smooth-scroll  h-12 md:h-18 max-w-full"
                   src="\the_uae_news_channel_today.avif"
                   
                   alt="Slide 9"
-               />
+               /> */}
               </div>
             </div>
           </div>

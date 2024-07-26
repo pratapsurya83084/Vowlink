@@ -32,16 +32,16 @@ const Statistics = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Our Achievements</p>
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Our Achievements</p>
         </div>
         <div className="mt-10">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {statistics.map((stat, index) => (
                 // bg-white,shadow-lg
-              <div key={index} className="  rounded-lg p-6 text-center">
-                <h3 className="text-2xl font-bold ">{stat.value}</h3>
-                <p className="mt-2 text-lg font-medium text-gray-900">{stat.title}</p>
-                <p className="mt-2 text-sm text-gray-600">{stat.description}</p>
+              <div key={index} className="bg-purple-1000 shadow-lg  rounded-lg p-6 text-center">
+                <h3 className="text-2xl font-bold text-white">{stat.value}</h3>
+                <p className="mt-2 text-lg font-medium text-white">{stat.title}</p>
+                <p className="mt-2 text-sm text-white">{stat.description}</p>
               </div>
             ))}
           </div>

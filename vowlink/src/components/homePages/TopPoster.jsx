@@ -1,58 +1,126 @@
 
-import React from "react";
+// import React from "react";
 
-const TopPoster = () => {
-  return (
-    // <div className="">
-    // mx-auto
-      // <main className="container  px- mt-10 py-12">
-      <div className="flex flex-col lg:flex-row justify-center items-center gap- mx-auto lg:px-20 mt-20 text-white">
-  {/* Text Content */}
-  <div className="text-center lg:text-left lg:max-w-lg lg:mr-8 mb-6 lg:mb-0">
-    <h1 className="text-3xl p-2 md:text-5xl xl:text-6xl lg:whitespace-nowrap font-bold mb-4">
-      Learn, Grow, Thrive with us!
-    </h1>
-    <p className="text-lg md:text-2xl lg:text-3xl mb-6">
-      Global platform providing quality vocational courses and education.
-    </p>
-    <div className="flex justify-center gap-4 mb-6">
-      <div className="text-center">
-        <p className="text-xl font-bold">75,000+</p>
-        <p>Placements</p>
-      </div>
-      <div className="text-center">
-        <p className="text-xl font-bold">50,000+</p>
-        <p>Career Transitions</p>
-      </div>
-      <div className="text-center">
-        <p className="text-xl font-bold">20+</p>
-        <p>Courses and Programs</p>
-      </div>
-    </div>
-    <button className="mt-6 bg-yellow-500 text-black py-4 px-10  rounded hover:bg-yellow-400 transition-colors">
-      Enquire Now
-    </button>
-  </div>
+// const TopPoster = () => {
+//   return (
+//     // <div className="">
+//     // mx-auto
+//       // <main className="container  px- mt-10 py-12">
+//       <div className="flex flex-col lg:flex-row justify-center items-center gap- mx-auto lg:px-20 mt-20 text-white">
+//   {/* Text Content */}
+//   <div className="text-center lg:text-left lg:max-w-lg lg:mr-8 mb-6 lg:mb-0">
+//     <h1 className="text-3xl p-2 md:text-5xl xl:text-6xl lg:whitespace-nowrap font-bold mb-4">
+//       Learn, Grow, Thrive with us!
+//     </h1>
+//     <p className="text-lg md:text-2xl lg:text-3xl mb-6">
+//       Global platform providing quality vocational courses and education.
+//     </p>
+//     <div className="flex justify-center gap-4 mb-6">
+//       <div className="text-center">
+//         <p className="text-xl font-bold">75,000+</p>
+//         <p>Placements</p>
+//       </div>
+//       <div className="text-center">
+//         <p className="text-xl font-bold">50,000+</p>
+//         <p>Career Transitions</p>
+//       </div>
+//       <div className="text-center">
+//         <p className="text-xl font-bold">20+</p>
+//         <p>Courses and Programs</p>
+//       </div>
+//     </div>
+//     <button className="mt-6 bg-yellow-500 text-black py-4 px-10  rounded hover:bg-yellow-400 transition-colors">
+//       Enquire Now
+//     </button>
+//   </div>
 
-  {/* Image */}
-  <div className="flex justify-center  w-full   ">
-    <img
-      src="/postervowlink.png"
-      alt="Career Image"
-      className=" h-80 w-auto lg:h-[500px] lg:w-[500px] max-w-xs lg:max-w-sm xl:max-w-md"
-    />
-  </div>
-</div>
+//   {/* Image */}
+//   <div className="flex justify-center  w-full   ">
+//     <img
+//       src="/postervowlink.png"
+//       alt="Career Image"
+//       className=" h-80 w-auto lg:h-[500px] lg:w-[500px] max-w-xs lg:max-w-sm xl:max-w-md"
+//     />
+//   </div>
+// </div>
 
     
-      // </main>
+//       // </main>
 
       
-    // {/* </div> */}
+//     // {/* </div> */}
+//   );
+// };
+
+// export default TopPoster;
+
+
+import React from 'react';
+
+const LandingPage = () => {
+  return (
+    // <div className="bg-darkBlue  px-2 md:px-0 text-white">
+    //         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-12">
+    //     <div className="md:w-1/2">
+    //       {/* <div className="bg-blue-900 inline-block px-4 py-1 rounded-full text-sm">
+    //         Payroll Software</div> */}
+    //       <h1 className="text-4xl md:text-5xl font-bold mt-6">
+    //       Learn, Grow, Thrive with us!
+    //         </h1>
+    //       <p className="text-lg mt-6">
+    //       Global platform providing quality vocational courses and education
+    //       </p>
+    //       <div className="mt-6 space-x-4">
+    //         <button className="bg-orange-500 px-6 py-3 rounded text-white font-bold">
+    //         ENQUIRE NOW
+    //           </button>
+    //         {/* <button className="bg-gray-700 px-6 py-3 rounded text-white font-bold">VIEW PRICING</button> */}
+    //       </div>
+    //       {/* <div className="mt-4 text-sm text-gray-400 flex items-center">
+    //         <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M5.293 12.707a1 1 0 010-1.414l3.172-3.172a4 4 0 015.656 0l1.172 1.172 1.172-1.172a1 1 0 011.414 0l2.122 2.122a1 1 0 010 1.414l-2.122 2.122a1 1 0 01-1.414 0L15.95 11.95l-1.172 1.172a4 4 0 01-5.656 0l-3.172 3.172a1 1 0 01-1.414 0z" clipRule="evenodd" /></svg>
+    //         India's only fully automated 
+    //       </div> */}
+    //     </div>
+        
+    //     <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
+    //       <div className=" p-8 rounded-lg">
+           
+    //         <img src="/postervowlink.png" 
+           
+    //         alt="Person working"
+    //          className="mt-6 rounded-md" />
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+
+    <section class=" body-font">
+  <div class="container mx-auto flex lg:gap-20  md:px-32 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2  md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-4xl lg:whitespace-nowrap text-3xl xl:text-5xl mb-4 font-medium text-white">
+      Learn, Grow and Thrive with us!
+        {/* <br class="hidden lg:inline-block"/>
+        readymade gluten */}
+      </h1>
+      <p class="mb-8 leading-relaxed text-white">
+      Global platform providing quality vocational courses and education
+         </p>
+      <div class="flex justify-center">
+      <button className="bg-orange-500 px-6 py-3 rounded text-white font-bold">
+             ENQUIRE NOW
+            </button>
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero"
+       src="/postervowlink.png"/>
+    </div>
+  </div>
+</section>
   );
 };
 
-export default TopPoster;
+export default LandingPage;
 
 
 
