@@ -2,10 +2,10 @@ import React from 'react';
 
 const StudentSupportServices = () => {
   return (
-    <section className="py-12">
+    <section className="font-type py-12">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold  text-center
-        font-type mb-8 text-white">Student Support Services</h2>
+         mb-8 text-white">Student Support Services</h2>
         
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="bg-gray-100   font-type         transition-transform transform hover:scale-105 p-6 rounded-lg shadow-lg">

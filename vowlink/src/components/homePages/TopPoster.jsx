@@ -96,16 +96,16 @@ const LandingPage = () => {
 
 
 <section className="font-type m-5 md:m-20   bg-gradient-to-r from-purple-500 to-indigo-500 rounded-lg shadow-xl body-font bg-transparent relative">
-  <div className="container mx-auto flex lg:gap-20 md:px-2 lg:px-14 py-24 md:flex-row flex-col items-center">
+  <div className="container mx-auto flex lg:gap-20 md:px-2 lg:px-14 py-4  md:py-24 md:flex-row flex-col items-center">
   <div className="lg:flex-grow md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center p-6
 ">
-      <h1 className="title-font sm:text-4xl  lg:whitespace-nowrap text-3xl xl:text-5xl mb-4 font-medium text-white animate-fadeIn drop-shadow-lg">
+      <h1 className="title-font text-2xl sm:text-4xl   xl:text-5xl  lg:whitespace-nowrap  mb-4 font-medium text-white animate-fadeIn drop-shadow-lg">
         {/* Learn, Grow and Thrive  with us! */}
         Learn, Earn, and Build Your 
         <br className='hidden md:flex' />
          <h2 className='md:mt-2'>Business Empire!</h2>
       </h1>
-      <p className="mb-8 leading-relaxed text-white animate-fadeIn drop-shadow-lg">
+      <p className="text-sm sm:text-lg mb-8 leading-relaxed text-white animate-fadeIn drop-shadow-lg">
         {/* Global platform providing quality vocational courses and education */}
         Transform Your Dreams into Reality with Our Top-Tier Global Business Education 
         and Innovative Vocational Courses

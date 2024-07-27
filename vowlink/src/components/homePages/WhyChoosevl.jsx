@@ -71,7 +71,7 @@ import React from "react";
 const ResponsiveSection = () => {
   return (
     <div className="font-type bg-white py-16 text-white">
-      <div className=" bg-gradient-to-r   bg-[#683695] rounded-3xl container mx-auto px-4 ">
+      <div className=" bg-gradient-to-r   bg-[#683695] md:rounded-3xl container mx-auto px-4 ">
         <h2 className="   pt-10 text-4xl font-bold text-center mb-8 ">
           Why Choose VL Academy?
         </h2>

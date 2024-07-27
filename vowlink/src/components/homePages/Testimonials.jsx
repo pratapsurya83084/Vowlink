@@ -112,8 +112,6 @@
 
 // export default Testimonials;
 
-
-
 // import React from 'react';
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import 'swiper/swiper-bundle.min.css'; // Import Swiper styles
@@ -144,14 +142,14 @@
 //       name: "Komal Boraste",
 //       title: "PGA",
 //       testimonial: "I needed to stay relevant in my field. Vowlink's courses were the perfect solution. The content was up-to-date and the platform was easy to use. Definitely worth the investment.",
-  
+
 //       rating: 4.9
 //     },
 //     {
 //       name: "Rudraksh Gandhi",
 //       title: "CIBOP",
 //       testimonial: "Vowlink's flexible learning format was a game-changer for me as a remote worker. I could balance work, family, and skill development seamlessly. Great platform!",
-  
+
 //       rating: 4.5
 //     },
 //     {
@@ -252,7 +250,172 @@
 
 
 
-import React from 'react'
+// 2nd
+
+// import React from "react";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+
+// const Testimonials = () => {
+//   const settings = {
+//     dots: true,
+//     infinite: true,
+//     speed: 900,
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 3000,
+//     prevArrow: null, // No previous arrow
+//     nextArrow: null, // No next arrow
+//   };
+
+//   return (
+//     <section className="px-0 font-type">
+//       <h1 className=" text-center  mt-10 rounded-tl-xl rounded-tr-xl text-white font-bold  p-1 px-4">
+//         <h2 className="text-2xl md:text-5xl">The Vowlink Hall of Fame</h2> <br />
+//      <h2 className="text-xl"> Our learners can't stop raving. Discover why.</h2>  
+//       </h1>
+
+//       {/* 3 slides  */}
+//       <div className="flex  image-carousel-section mt-60 mb-60 lg:mt-20    px-8 md:px-20 justify-center items-center w-full radius-yellow p-4 h-32 sm:h-32 md:h-36 lg:h-36 xl:h-36 2xl:h-40 rounded-3xl bg-custom-brown">
+//         <Slider {...settings} className="flex p-2 w-full">
+//           {/* First slide */}
+//           <div className=" p-2">
+//             <div className="flex justify-center items-center gap-4">
+//               <div className="flex text-center  w-60 p-4  flex-col justify-center bg-white rounded-lg p-">
+//                 <h1 className="text-xl font-bold mb-5">Sophie Carter</h1>
+//                 <p className="">
+//                   "Vowlink has been a game-changer for me. 
+//                    The specialized  business curriculum 
+//                     gave me the confidence to start my own 
+//                   venture, and the hands-on projects made all 
+//                    the difference.
+//                   Highly recommend!" .
+//                 </p>
+//               </div>
+//               <div className="text-center  w-60 p-4 flex flex-col  justify-center bg-white rounded-lg ">
+//                 <h1 className="text-xl font-bold mb-5"> Raj Patel</h1>
+//                 <p>
+//                   "The quality of education at Vowlink is top-notch. The expert
+//                   mentors provided invaluable insights, and the flexible
+//                   learning options were perfect for balancing my work and
+//                   studies. A great investment in my future!"
+//                 </p>
+//               </div>
+//               <div className="text-center  w-60  flex flex-col   justify-center bg-white rounded-lg p-4">
+//                 <h1 className="text-xl font-bold mb-5"> Emily Johnson</h1>
+//                 <p>
+//                   "Vowlink's innovative courses are exactly what I needed to
+//                   take my business ideas to the next level. The practical
+//                   approach and networking opportunities have opened new doors
+//                   for me."
+//                 </p>
+//               </div>
+//             </div>
+//           </div>
+
+//           {/* Second slide */}
+//           <div className="p-2">
+//             <div className="flex justify-center items-center gap-4">
+//               <div className="text-center  w-60 flex flex-col   justify-center bg-white rounded-lg p-4">
+//                 <h1 className="text-xl font-bold mb-5">Carlos Mendoza</h1>
+//                 <p>
+//                   "I was impressed by the breadth of topics covered and the
+//                   real-world applications of the lessons. Vowlink’s curriculum
+//                   is comprehensive and relevant, making it easy to apply what I
+//                   learned immediately."
+//                 </p>
+//               </div>
+
+//               <div className="flex flex-col text-center  w-60  justify-center  bg-white rounded-lg p-4">
+//                 <h1 className="text-xl font-bold mb-5">Aisha Ahmed</h1>
+//                 <p>
+//                   "Joining Vowlink was one of the best decisions I've made. The
+//                   community is supportive, the mentors are experienced, and the
+//                   flexibility of the courses allowed me to learn at my own pace
+//                   while working full-time."
+//                 </p>
+//               </div>
+
+//               <div className="text-center  w-60 flex flex-col   justify-center bg-white rounded-lg p-4">
+//                 <h1 className="text-xl font-bold mb-5">Michael Lee</h1>
+//                 <p>
+//                   "Vowlink offers an exceptional learning experience with its
+//                   top-tier global business education. The ability to work on
+//                   real business scenarios and the access to industry experts
+//                   have been incredibly valuable."
+//                 </p>
+//               </div>
+
+//             </div>
+//           </div>
+
+//           {/* Third slide */}
+//           <div className="p-2">
+//             <div className="flex justify-center items-center gap-4">
+             
+//               <div className="flex text-center  w-60   flex-col  justify-center bg-white rounded-lg p-4">
+//                 <h1 className="text-xl font-bold mb-5">Priya Sharma</h1>
+//                 <p>
+//                   "The hands-on learning approach at Vowlink really sets it
+//                   apart. I’ve been able to directly apply the concepts to my own
+//                   projects, and the networking opportunities have been fantastic
+//                   for my career growth."
+//                 </p>
+//               </div>
+
+//               <div className="text-center  w-60 flex flex-col   justify-center bg-white rounded-lg p-4">
+//                 <h1 className="text-xl font-bold mb-5"> John Roberts</h1>
+//                 <p>
+//                   "I’ve taken several online courses, but Vowlink stands out for
+//                   its practical approach and expert instructors. The flexible
+//                   options allowed me to tailor my learning experience to fit my
+//                   busy schedule."
+//                 </p>
+//               </div>
+
+//               <div
+//                 className="text-center  w-60 flex flex-col 
+//                justify-center bg-white rounded-lg p-4"
+//               >
+//                 <h1 className="text-xl font-bold mb-5"> Lena Thompson </h1>
+//                 <p>
+//                   "Vowlink has provided me with the tools and knowledge needed
+//                   to start earning while learning. The innovative courses and
+//                   supportive community have been instrumental in my
+//                   entrepreneurial journey."
+//                 </p>
+               
+//               </div>
+
+//             </div>
+//           </div>
+//         </Slider>
+//       </div>
+
+      
+//     </section>
+//   );
+// };
+
+// export default Testimonials;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -262,90 +425,82 @@ const Testimonials = () => {
     dots: true,
     infinite: true,
     speed: 900,
-    slidesToShow: 1,
+    slidesToShow: 1, // Default
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    prevArrow: null, // No previous arrow
-    nextArrow: null, // No next arrow
+    prevArrow: null,
+    nextArrow: null,
+    responsive: [
+      {
+        breakpoint: 425, // mobile screens
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 640, // mobile screens
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768, // small screens
+        settings: {
+          slidesToShow: 2, //image 2 show
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 2560, // medium screens
+        settings: {
+          slidesToShow: 3, //image number for each slide
+          slidesToScroll: 1, //slide number
+        },
+      },
+    ],
   };
 
+  // Testimonial data
+  const testimonials = [
+    { name: "Sophie Carter", text: "Vowlink has been a game-changer for me. The specialized business curriculum gave me the confidence to start my own venture, and the hands-on projects made all the difference. Highly recommend!" },
+    { name: "Raj Patel", text: "The quality of education at Vowlink is top-notch. The expert mentors provided invaluable insights, and the flexible learning options were perfect for balancing my work and studies. A great investment in my future!" },
+    { name: "Emily Johnson", text: "Vowlink's innovative courses are exactly what I needed to take my business ideas to the next level. The practical approach and networking opportunities have opened new doors for me." },
+    { name: "Carlos Mendoza", text: "I was impressed by the breadth of topics covered and the real-world applications of the lessons. Vowlink’s curriculum is comprehensive and relevant, making it easy to apply what I learned immediately." },
+    { name: "Aisha Ahmed", text: "Joining Vowlink was one of the best decisions I've made. The community is supportive, the mentors are experienced, and the flexibility of the courses allowed me to learn at my own pace while working full-time." },
+    { name: "Michael Lee", text: "Vowlink offers an exceptional learning experience with its top-tier global business education. The ability to work on real business scenarios and the access to industry experts have been incredibly valuable." },
+    { name: "Priya Sharma", text: "The hands-on learning approach at Vowlink really sets it apart. I’ve been able to directly apply the concepts to my own projects, and the networking opportunities have been fantastic for my career growth." },
+    { name: "John Roberts", text: "I’ve taken several online courses, but Vowlink stands out for its practical approach and expert instructors. The flexible options allowed me to tailor my learning experience to fit my busy schedule." },
+    { name: "Lena Thompson", text: "Vowlink has provided me with the tools and knowledge needed to start earning while learning. The innovative courses and supportive community have been instrumental in my entrepreneurial journey." },
+  ];
+
   return (
-    <section  className="px-10">
-      <h1 className=" text-center  mt-10 rounded-tl-xl rounded-tr-xl text-white font-bold  p-1 px-4">
-      <p className='text-2xl md:text-4xl'>The Vowlink Hall of Fame</p>  <br />
-      Our learners can't stop raving. Discover why.
+    <section className="px-0 md:px-5 lg:px-40 xl:px-60 2xl:px-80 font-type">
+
+      <h1 className="text-center mt-10 rounded-tl-xl rounded-tr-xl text-white font-bold p-1 px-4">
+        <p className="text-2xl md:text-4xl">The Vowlink Hall of Fame</p> <br />
+        Our learners can't stop raving. Discover why.
       </h1>
-      <div className="image-carousel-section mt-20 flex  px-10 justify-center items-center w-full radius-yellow p-4 h-32 sm:h-32 md:h-36 lg:h-36 xl:h-36 2xl:h-40 rounded-3xl bg-custom-brown">
+
+      {/* Testimonials Section */}
+      <div className="flex flex-col mt-10 mb-10 lg:mt-20 px-8 md:px-20 justify-center items-center w-full radius-yellow p-4 rounded-3xl bg-custom-brown">
         <Slider {...settings} className="flex p-2 w-full">
-          {/* First slide */}
-          <div className="p-2">
-            <div className="flex justify-center items-center gap-4">
-              
-              
-              <div className="w-1/3 flex flex-col justify-center bg-white rounded-lg p-4">
-              <h1>Name:</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius beatae enim rem nemo tempore amet inventore adipisci saepe consectetur! Culpa praesentium quas accusamus quibusdam debitis corporis ipsum recusandae ut eaque.</p>
-              </div>
-              <div className="flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
-              <h1>Name:</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius beatae enim rem nemo tempore amet inventore adipisci saepe consectetur! Culpa praesentium quas accusamus quibusdam debitis corporis ipsum recusandae ut eaque.</p>
-              </div>
-              <div className="flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
-              <h1>Name:</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius beatae enim rem nemo tempore amet inventore adipisci saepe consectetur! Culpa praesentium quas accusamus quibusdam debitis corporis ipsum recusandae ut eaque.</p>
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="p-2">
+              <div className="flex justify-center items-center gap-4">
+                <div className="text-center w-60 p-4 flex flex-col justify-center bg-white rounded-lg">
+                  <h1 className="text-xl font-bold mb-5">{testimonial.name}</h1>
+                  <p>{testimonial.text}</p>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* Second slide */}
-          <div className="p-2">
-            <div className="flex justify-center items-center gap-4">
-              <div className="flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
-               <h1>Name:</h1>
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt culpa, dignissimos eaque quas consequuntur vero eos veniam, laudantium et maxime sapiente perferendis. Mollitia eveniet dolore quae at distinctio alias accusantium!</p>
-              </div>
-              <div className="flex flex-col w-1/3  justify-center  bg-white rounded-lg p-4">
-              <h1>Name:</h1>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum id nulla vero quibusdam provident vitae. Distinctio nemo quisquam deserunt voluptatum temporibus ipsa officiis minus, possimus natus minima! In, magni?</p>
-              </div>
-              <div className=" flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
-              <h1>Name:</h1>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt animi veniam autem. Nihil incidunt itaque inventore, laudantium error est quae, odio vitae nulla numquam earum quo eum architecto ullam.</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Third slide */}
-          <div className="p-2">
-            <div className="flex justify-center items-center gap-4">
-              <div className="flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
-              <h1>Name:</h1>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dolore quibusdam animi alias? Atque est tempora facilis illo sequi iusto a error omnis suscipit, ullam quasi aliquid ea voluptates molestias!</p>
-              </div>
-              <div className="flex flex-col w-1/3  justify-center bg-white rounded-lg p-4">
-              <h1>Name:</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cumque hic dolores et, odit consequatur consectetur dolor aliquid nisi obcaecati iusto? Consequuntur eligendi optio nesciunt sapiente non voluptas neque rerum.</p>
-              </div>
-              <div className="flex flex-col w-1/3 
-               justify-center bg-white rounded-lg p-4">
-                <h1>Name:</h1>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quae eligendi nam, neque corrupti eos temporibus exercitationem voluptatem sequi consectetur repellat doloribus quasi vero quibusdam numquam. Dolores laudantium voluptates porro?
-
-               </p>
-                {/* <img
-                  className="smooth-scroll  h-12 md:h-18 max-w-full"
-                  src="\the_uae_news_channel_today.avif"
-                  
-                  alt="Slide 9"
-               /> */}
-              </div>
-            </div>
-          </div>
+          ))}
         </Slider>
       </div>
     </section>
   );
 };
 
-export default Testimonials
+export default Testimonials;

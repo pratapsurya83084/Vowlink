@@ -5,11 +5,11 @@ import Faq  from '../homePages/FaqSection'
 import TopPoster   from '../homePages/TopPoster'
 import AboutSections  from '../homePages/AboutSections'
 import Testimonials  from '../homePages/Testimonials'
-import PlacementReport  from '../homePages/PlacementReport'
-import ImageAndTextSection  from  '../homePages/ImageAndTextSection'
+
+
 import WhyChoosevl  from '../homePages/WhyChoosevl'
 import Twobuttons  from '../homePages/Twobuttons'
-import SuccessStory  from '../homePages/SuccessStory'
+// import SuccessStory  from '../homePages/SuccessStory'
 import Statistics  from  '../homePages/Statistics'
 import Enroll from '../homePages/Enroll'
 import StudentSupportServices  from '../homePages/StudentSupportServices'
@@ -21,9 +21,6 @@ const Home = () => {
       <div>
         <TopPoster/>
         <Twobuttons/>
-        {/* <ImageAndTextSection/> */}
-       
-        {/* <Cards/> */}
         <AboutSections/>
         <WhyChoosevl/>
        
@@ -34,7 +31,7 @@ const Home = () => {
         <Enroll/>
        
        
-        {/* <PlacementReport/> */}
+       
       {/* <Faq/> */}
       <EventAcademy/>
       </div>
