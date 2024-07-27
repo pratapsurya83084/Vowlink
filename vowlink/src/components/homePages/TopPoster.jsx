@@ -94,43 +94,21 @@ const LandingPage = () => {
     //   </div>
     // </div>
 
-//     <section class=" body-font">
-//   <div class="container mx-auto  flex lg:gap-20  md:px-2 lg:px-14 py-24 md:flex-row flex-col items-center">
-//     <div class="lg:flex-grow md:w-1/2    md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-//       <h1 class="title-font sm:text-4xl lg:whitespace-nowrap text-3xl xl:text-5xl mb-4 font-medium text-white">
-//       Learn, Grow and Thrive with us!
-//         {/* <br class="hidden lg:inline-block"/>
-//         readymade gluten */}
-//       </h1>
-//       <p class="mb-8 leading-relaxed text-white">
-//       Global platform providing quality vocational courses and education
-        
-//          </p>
-//       <div class="flex justify-center">
-//       <button className="bg-orange-500 px-6 py-3 rounded text-white font-bold">
-//              ENQUIRE NOW
-//             </button>
-//       </div>
-//     </div>
-//     {/* img */}
-//     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-//       <img class="object-cover object-center rounded" alt="hero"
-//       //  src="/postervowlink.png"
-//        src='\buisness_vowlinkpostter-removebg.png'
-//       //  src='https://img.freepik.com/free-vector/modern-skyscrapers-buildings_1441-3169.jpg?t=st=1722021522~exp=1722025122~hmac=857cbed0b9227ef9acaf53e065aad7bb9e65025568cb49becf2837c02949eee9&w=740'
-//        />
-//     </div>
-//   </div>
-// </section>
-<section className="m-5 md:m-20   bg-gradient-to-r from-purple-500 to-indigo-500 rounded-lg shadow-xl body-font bg-transparent relative">
+
+<section className="font-type m-5 md:m-20   bg-gradient-to-r from-purple-500 to-indigo-500 rounded-lg shadow-xl body-font bg-transparent relative">
   <div className="container mx-auto flex lg:gap-20 md:px-2 lg:px-14 py-24 md:flex-row flex-col items-center">
   <div className="lg:flex-grow md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center p-6
 ">
       <h1 className="title-font sm:text-4xl  lg:whitespace-nowrap text-3xl xl:text-5xl mb-4 font-medium text-white animate-fadeIn drop-shadow-lg">
-        Learn, Grow and Thrive  with us!
+        {/* Learn, Grow and Thrive  with us! */}
+        Learn, Earn, and Build Your 
+        <br className='hidden md:flex' />
+         <h2 className='md:mt-2'>Business Empire!</h2>
       </h1>
       <p className="mb-8 leading-relaxed text-white animate-fadeIn drop-shadow-lg">
-        Global platform providing quality vocational courses and education
+        {/* Global platform providing quality vocational courses and education */}
+        Transform Your Dreams into Reality with Our Top-Tier Global Business Education 
+        and Innovative Vocational Courses
       </p>
       <div className="flex justify-center">
         <button className="bg-orange-500 px-6 py-3 rounded text-white font-bold hover:bg-orange-600 transition-all shadow-lg animate-bounce">
@@ -138,7 +116,7 @@ const LandingPage = () => {
         </button>
       </div>
     </div>
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 relative">
+    <div className="lg:max-w-lg lg:w-full md:mr-5 md:w-1/2 w-5/6 relative">
       <div className="relative p-6 bg-purple-500 bg-opacity-30 rounded-lg shadow-lg">
         <img className="object-cover object-center rounded border-4 border-purple-500 animate-slideIn" alt="hero"
           src="/buisness_vowlinkpostter-removebg.png" />

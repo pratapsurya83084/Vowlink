@@ -2,8 +2,15 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+
+.font-type{
+  
+ font-family:jost,sans-serif; 
+ 
+}
 body{
   background-color: #683695;
+ 
 }
 @keyframes scroll {
   0% {
@@ -62,7 +69,7 @@ body{
 
 
 
-/* about section animation */
+/* about section animation /css */
 
 @keyframes gradient-x {
   0% {
@@ -80,6 +87,20 @@ body{
   background-size: 200% 200%;
   animation: gradient-x 15s ease infinite;
 }
+
+
+/* add dott */
+.dotted-background {
+  background: radial-gradient(circle, black 1px, transparent 1px);
+  background-size: 10px 10px;
+  position: absolute;
+  top: -50px; /* Adjust to control vertical position */
+  left: -10px; /* Adjust to control horizontal position */
+  width: 100%; /* Adjust width to cover desired area */
+  height: 100%; /* Adjust height to cover desired area */
+  z-index: 0;
+}
+
 
 
 
