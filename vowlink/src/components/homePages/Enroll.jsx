@@ -8,8 +8,8 @@ const EnrollmentAndAdmissions = () => {
         <div className="flex flex-col lg:flex-row items-center">
           {/* Text Section */}
           <div className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Join VL Academy Today
+            <h2 className="text-2xl  sm:text-4xl lg:text-5xl font-extrabold text-gray-900">
+            Join VL Academy  Today
               </h2>
             <p className="mt-4 text-lg text-gray-600">
             Take the first step towards a successful business

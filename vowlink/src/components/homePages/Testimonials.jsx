@@ -477,12 +477,12 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="px-0 md:px-5 lg:px-40 xl:px-60 2xl:px-80 font-type">
+    <section className="font-type px-0 md:px-5 lg:px-40 xl:px-60 2xl:px-80 ">
 
-      <h1 className="text-center mt-10 rounded-tl-xl rounded-tr-xl text-white font-bold p-1 px-4">
-        <p className="text-2xl md:text-4xl">The Vowlink Hall of Fame</p> <br />
-        Our learners can't stop raving. Discover why.
-      </h1>
+      <div className="text-center mt-10   text-white font-bold p- px-4">
+        <h2 className="text-2xl sm:text-4xl lg:text-5xl ">The Vowlink Hall of Fame</h2> <br />
+       <p className="text-lg"> Our learners can't stop raving. Discover why.</p>
+      </div>
 
       {/* Testimonials Section */}
       <div className="flex flex-col mt-10 mb-10 lg:mt-20 px-8 md:px-20 justify-center items-center w-full radius-yellow p-4 rounded-3xl bg-custom-brown">

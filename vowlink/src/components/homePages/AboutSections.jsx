@@ -126,11 +126,13 @@ const AboutSections = () => {
   return (
     <div className="font-type relative bg-gradient-to-r from-white to-white-900 py-16 text-black">
       <div className="absolute inset-0"></div>
-      <div className="relative container mx-auto px-4 py-16">
+      {/* sm:py-16 */}
+      <div className="relative container mx-auto px-4 ">
         <div className="flex flex-col items-center justify-center p-6">
           <div className="md:flex md:items-center md:justify-center md:space-x-8">
+           {/* show small size device */}
             <div className="md:hidden mb-20 ">
-              <h2 className="text-4xl text-center font-bold animate-fadeIn">
+              <h2 className="text-2xl sm:text-4xl  text-center font-bold animate-fadeIn">
                 About Vowlink
               </h2>
             </div>
@@ -138,15 +140,16 @@ const AboutSections = () => {
               <div className="absolute inset-y-0 left-0 w-full transform -translate-x-10 md:w-2/3 dotted-background"></div>
               <div className="relative w-full z-10">
                 <img
-                  src="https://img.freepik.com/free-photo/business-marketing-strategy-plan-operations_53876-13784.jpg?t=st=1722075354~exp=1722078954~hmac=f4f5dc20091a4b336cdc3ee5d699c3b4c25b000e969b21110fb1d25355897b0f&w=740"
+                  
+                 src="https://img.freepik.com/free-photo/business-marketing-strategy-plan-operations_53876-13784.jpg?t=st=1722250007~exp=1722253607~hmac=21cc9a327e788ef2b964ba1ab3219bcd1dfce190dcbef9a8bc3a4956fbc631d4&w=740"
                   alt="Vowlink Learning"
                   className="w-full max-w-lg rounded-lg transform transition-transform duration-700 hover:scale-105 animate-slideInLeft relative"
                 />
               </div>
             </div>
-            <div className="text-center md:text-left md:w-1/2 mt-6 md:mt-0 animate-slideInRight">
+            <div className=" md:text-left md:w-1/2 mt-6 md:mt-0 animate-slideInRight">
               <div className="md:flex hidden mb-6 lg:mb-10">
-                <h2 className="md:text-3xl lg:text-5xl font-bold animate-fadeIn text-left">
+                <h2 className="md:text-4xl lg:text-5xl font-bold animate-fadeIn text-left">
                   About Vowlink
                 </h2>
               </div>

@@ -19,7 +19,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-50 text-gray-600 py-12">
+    <footer className="font-type   bg-gray-50 text-gray-600 py-12">
       <div className="container mx-auto px-4">
         <div className="lg:flex justify-center lg:justify-between lg:px-36 gap-1">
           {/* left side */}
@@ -642,7 +642,7 @@ const Footer = () => {
 
         {/*  *************************** mobile size ,tab size ******************************/}
 
-        <footer className=" block lg:hidden  p-6">
+        <footer className="font-type block lg:hidden  p-6">
           <div className="container mx-auto">
             <div className="flex flex-col   justify-between items-start sm:items-center">
               <div className="w-full mb-10">

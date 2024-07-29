@@ -72,17 +72,17 @@ const ResponsiveSection = () => {
   return (
     <div className="font-type bg-white py-16 text-white">
       <div className=" bg-gradient-to-r   bg-[#683695] md:rounded-3xl container mx-auto px-4 ">
-        <h2 className="   pt-10 text-4xl font-bold text-center mb-8 ">
+        <h2 className="text-2xl sm:text-4xl lg:text-5xl    pt-10 font-bold text-center mb-8 ">
           Why Choose VL Academy?
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-y-5  gap-4 p-4 pb-20  md:space-x-">
-          
+          {/* box1 */}
           <div className="hover:bg-white  hover:text-black rounded-2xl shadow-2xl p-2 flex-1 mb- ml- md:ml- md:mb-0
            transition-transform transform hover:scale-105">
             <h3 className="text-2xl font-semibold mb-4">
               {" "}
-              Specialized Business Curriculum:
+              Specialized Business Curriculum :
             </h3>
             <p className="text-lg">
               Our courses cover everything from 
@@ -93,38 +93,41 @@ const ResponsiveSection = () => {
               and marketing.
             </p>
           </div>
+          {/* box2 */}
           <div className="hover:bg-white hover:text-black rounded-2xl  shadow-2xl p-2 flex-1 mb- md:mb-0
            transition-transform transform hover:scale-105">
-            <h3 className="text-2xl font-semibold mb-4"> Expert Mentors:</h3>
+            <h3 className="text-2xl font-semibold mb-4"> Expert Mentors :</h3>
             <p className="text-lg">
               Learn from industry leaders and successful entrepreneurs with
               real-world experience.
             </p>
           </div>
 
+{/* box3 */}
           <div className="hover:bg-white hover:text-black  rounded-2xl shadow-2xl p-2 flex-1
            transition-transform transform hover:scale-105">
-            <h3 className="text-2xl font-semibold mb-4"> Hands-on Learning</h3>
+            <h3 className="text-2xl font-semibold mb-4"> Hands-on Learning :</h3>
             <p className="text-lg">
               Apply your knowledge through practical projects and simulations
               for real-world impact.
             </p>
           </div>
 
+{/* box4 */}
           <div className="hover:bg-white hover:text-black rounded-2xl shadow-2xl p-2 flex-1
            transition-transform transform hover:scale-105">
-            <h3 className="text-2xl font-semibold mb-4"> Flexible Options:</h3>
+            <h3 className="text-2xl font-semibold mb-4"> Flexible Options :</h3>
             <p className="text-lg">
               Choose from self-paced or live sessions that fit your schedule,
               whether you're a full-time student or a working professional.
             </p>
           </div>
-
+{/* box5 */}
           <div className="hover:bg-white hover:text-black  rounded-2xl shadow-2xl p-2 flex-1
            transition-transform transform hover:scale-105">
             <h3 className="text-2xl font-semibold mb-4">
               {" "}
-              Community and Networking:
+              Community and Networking :
             </h3>
             <p className="text-lg">
               Connect with a dynamic network of peers, mentors, and
@@ -132,11 +135,12 @@ const ResponsiveSection = () => {
               business opportunities.
             </p>
           </div>
+        {/* box6 */}
           <div className="hover:bg-white hover:text-black rounded-2xl shadow-2xl p-2 flex-1
            transition-transform transform hover:scale-105">
             <h3 className="text-2xl font-semibold mb-4">
               {" "}
-              Pathway to Earning:
+              Pathway to Earning :
             </h3>
             <p className="text-lg">
               Gain the tools and resources to start earning and building your

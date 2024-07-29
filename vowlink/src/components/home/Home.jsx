@@ -9,7 +9,7 @@ import Testimonials  from '../homePages/Testimonials'
 
 import WhyChoosevl  from '../homePages/WhyChoosevl'
 import Twobuttons  from '../homePages/Twobuttons'
-// import SuccessStory  from '../homePages/SuccessStory'
+
 import Statistics  from  '../homePages/Statistics'
 import Enroll from '../homePages/Enroll'
 import StudentSupportServices  from '../homePages/StudentSupportServices'
@@ -27,7 +27,7 @@ const Home = () => {
         <Testimonials/>
         <Statistics/>
         <StudentSupportServices/>
-        {/* <SuccessStory/> */}
+        
         <Enroll/>
        
        

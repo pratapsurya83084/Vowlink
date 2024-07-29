@@ -122,13 +122,13 @@ const images = [
   ];
 
   return (
-    <section className="px-0 md:px-5 lg:px-40 xl:px-60 2xl:px-80 font-type">
+    <section className="font-type px-0 md:px-5 lg:px-40 xl:px-60 2xl:px-80 ">
 
       <h1 className="text-center mt-10 rounded-tl-xl rounded-tr-xl text-white font-bold p-1 px-4">
-        <p className="text-2xl md:text-4xl">
+        <p className="text-2xl sm:text-4xl lg:text-5xl">
         Curious about what's happening at the Academy?
         </p> <br />
-       <h2 className="text-lg">Stay tuned for exciting news and events!</h2> 
+       <h2 className="text-lg sm:text-xl lg:text-2xl">Stay tuned for exciting news and events!</h2> 
 
       </h1>
 
@@ -136,9 +136,9 @@ const images = [
       <div className="flex flex-col mt-10 mb-10 lg:mt-20 px-8 md:px-20 justify-center items-center w-full radius-yellow p-4 rounded-3xl bg-custom-brown">
         <Slider {...settings} className="flex p-2 w-full">
           {images.map((image, index) => (
-            <div key={index} className="p-2">
+            <div key={index} className="p-1">
               <div className="flex justify-center items-center gap-4">
-                <div className="text-center w-60 p-4 flex flex-col justify-center bg-white rounded-lg">
+                <div className="text-center w-60 p- flex flex-col justify-center bg-white rounded-lg">
                   {/* <h1 className="text-xl font-bold mb-5">{image}</h1> */}
                   <img src={image} alt="" />
                   {/* <p>{testimonial.text}</p> */}

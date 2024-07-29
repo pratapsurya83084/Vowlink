@@ -23,7 +23,7 @@ import React from 'react';
 const TwoButtons = () => {
   return (
     <div className='font-type flex flex-col items-center bg-gradient-to-r bg-[#683695] to-teal-600 mt-20 mx-4 lg:mx-20 mb-20 py-12 px-6 rounded-lg shadow-2xl'>
-      <p className='text-center text-white text-2xl lg:text-4xl font-bold px-4 mb-8'>
+      <p className='text-center text-white text-xl sm:text-2xl  lg:text-3xl font-bold px-4 mb-8'>
         "At VL, we aim to tailor tomorrow’s global leaders and visionaries <br />
         through our expert-designed courses and tools.”
       </p>

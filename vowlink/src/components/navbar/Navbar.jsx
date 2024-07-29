@@ -1,5 +1,4 @@
 
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Dialog, DialogPanel } from "@headlessui/react";
@@ -14,7 +13,7 @@ const Navbar = () => {
       <nav
   aria-label="Global"
   // bg-gray-50
-  className=" bg-[#0c9db3] text-white   shadow-lg flex items-center p-7 lg:px-8
+  className="font-type bg-[#0c9db3] text-white   shadow-lg flex items-center p-7 lg:px-8
     top-0 w-full"
 >
   {/* Logo */}
@@ -40,11 +39,13 @@ const Navbar = () => {
 
   {/* Large menu links */}
   <div className="hidden m-3 lg:flex lg:flex-1 lg:mr-[400px] xl:mr-[750px] lg:gap-x-12">
-    <Link to="/" className="hover:text-gray-800 lg:text-[17px]">
+    <Link to="/" 
+    className="hover:text-gray-200 text-xl">
       Home
     </Link>
    
-    <Link to="/franchise" className="hover:text-gray-800 lg:text-[17px]">
+    <Link to="/franchise" 
+    className="hover:text-gray-200 text-xl">
       Franchise
     </Link>
   </div>
@@ -55,7 +56,7 @@ const Navbar = () => {
       <Dialog
         open={mobileMenuOpen}
         onClose={() => setMobileMenuOpen(false)}
-        className="lg:hidden"
+        className="font-type lg:hidden"
       >
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed  inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
