@@ -2,7 +2,7 @@ import React from "react";
 
 const OpportunitySection = () => {
   return (
-    <div className="flex flex-col items-center px-10 py-8">
+    <div className="text-white flex flex-col items-center px-10 py-8">
       <h1 className="text-center text-3xl font-bold mb-8">
         Pathways to Progress : Where Vision Meets Opportunity
       </h1>
@@ -22,44 +22,56 @@ const OpportunitySection = () => {
           {/* Point 1 */}
           <div className="mb-6  md:text-left">
             <h2 className="text-2xl font-semibold mb-2">
-              Innovative Learning Strategies for a Successful Tomorrow
+            Customer Opinions:
+           
             </h2>
             <p>
-              Our educational framework integrates the latest teaching
+              {/* Our educational framework integrates the latest teaching
               methodologies and technologies, ensuring a bright future for both
-              students and educators.
+              students and educators. */}
+               At Vowlink, the success of our franchisees is 
+            the greatest testament to our methods. Here’s 
+            what some of our satisfied partners have to say :
             </p>
           </div>
 
           {/* Point 2 */}
           <div className="mb-6  md:text-left">
             <h2 className="text-2xl font-semibold mb-2">
-              Engaged Learning Community
+            Joining Vowlink has been a game :
             </h2>
             <p>
-              Our vibrant and supportive learning community provides a solid
-              foundation for academic success. Together, students and educators
-              foster a collaborative environment that drives excellence.
+           " changer for my career.
+             The support and resources provided have
+              made a significant difference in my business.” –
+               Jane D., Franchise Owner
             </p>
           </div>
 
           {/* Point 3 */}
           <div className="mb-6  md:text-left">
-            <h2 className="text-2xl font-semibold mb-2">Sustainable Growth</h2>
+            <h2 className="text-2xl font-semibold mb-2">
+            The training programs are top :
+              </h2>
             <p>
-              Research indicates that education-focused initiatives are crucial
-              for long-term societal development. Predicting future growth depends
-              on the combined efforts of educational institutions and students.
+            "notch and incredibly effective.
+             I appreciate the guidance from the Vowlink
+              team every step of the way!” – Mark R.,
+               Franchise Owner
             </p>
           </div>
 
           {/* Point 4 */}
           <div className=" md:text-left">
-            <h2 className="text-2xl font-semibold mb-2">Adaptive Support Systems</h2>
+            <h2 className="text-2xl font-semibold mb-2">
+              {/* Adaptive Support Systems */}
+              Vowlink's approach :
+              </h2>
             <p>
-              Our adaptive support mechanisms are designed to help both educators
-              and students navigate any challenges effectively. This ensures a
-              resilient and dynamic learning experience.
+            To entrepreneurship is refreshing.
+             They genuinely care about their
+              franchisees' success.” – Sarah L.,
+               Franchise Owner
             </p>
           </div>
         </div>

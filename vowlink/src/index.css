@@ -6,7 +6,7 @@
 .font-type{
   
  font-family:jost,sans-serif; 
- 
+ /* font-family: 'jost',sans-serif; */
 }
 body{
   background-color: #683695;
