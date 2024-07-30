@@ -24,21 +24,11 @@ const Navbar = () => {
     </Link>
   </div>
 
-  {/* Mobile menu button */}
-  <div className="flex lg:hidden">
-    <button
-      type="button"
-      onClick={() => setMobileMenuOpen(true)}
-      // text-gray-700
-      className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 "
-    >
-      <span className="sr-only">Open main menu</span>
-      <Bars3Icon aria-hidden="true" className="h-6 w-6" />
-    </button>
-  </div>
+ 
 
   {/* Large menu links */}
-  <div className="hidden m-3 lg:flex lg:flex-1 lg:mr-[400px] xl:mr-[750px] lg:gap-x-12">
+  {/* lg:mr-[400px]  */}
+  <div className="hidden m-3 lg:flex lg:flex-1  lg:gap-x-12">
     <Link to="/" 
     className="hover:text-gray-200 text-xl">
       Home
@@ -49,10 +39,34 @@ const Navbar = () => {
       Franchise
     </Link>
   </div>
+
+  {/* button */}
+  <div className=" flex gap-2 sm:gap-10">
+  <div className="hidden md:flex">
+  <a href="https://bisjhintus.com/">
+                <button className="bg-white hover:bg-gray-100 focus:bg-slate-100  text-black px-5 py-3 rounded text-lg">Visit Global</button>
+                </a> 
+  </div>
+
+
+ {/* Mobile menu button */}
+ <div className="flex lg:hidden ">
+    <button
+      type="button"
+      onClick={() => setMobileMenuOpen(true)}
+      // text-gray-700
+      className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5">
+      <span className="sr-only">Open main menu</span>
+      <Bars3Icon aria-hidden="true" className="h-9 w-9 " />
+    </button>
+  </div>
+  </div>
+  
+
 </nav>
 
 
-      {/* Mobile menu */}
+      {/* Mobile menu open navbar*/}
       <Dialog
         open={mobileMenuOpen}
         onClose={() => setMobileMenuOpen(false)}
@@ -95,6 +109,13 @@ const Navbar = () => {
                 >
                   Franchise
                 </Link>
+
+                {/* button show in phone size and medium size hidden*/}
+                <div className="md:hidden flex">
+                <a href="https://bisjhintus.com/">
+                <button className="bg-cyan-500 text-white px-5 py-3 rounded text-lg">Visit Global</button>
+                </a> 
+                </div>
               </div>
             </div>
           </div>

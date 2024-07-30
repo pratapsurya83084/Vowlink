@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Benefit = ({ icon, title, description }) => (
-  <div className="flex items-start bg-white p-6 rounded-lg shadow-lg relative">
+  <div className="font-type flex items-start bg-white p-6 rounded-lg shadow-lg relative">
     <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-yellow-500 text-white rounded-full">
       <img src={icon} alt={`${title} Icon`} className="w-8 h-8" />
     </div>
@@ -13,7 +13,7 @@ const Benefit = ({ icon, title, description }) => (
 );
 
 const Benefits = () => (
-  <section className="bg-gray-50 py-16">
+  <section className="font-type bg-gray-50 py-16">
     <div className="container mx-auto px-6">
       <h2 className="text-4xl font-bold text-center mb-12">Franchise Benefits</h2>
      {/* <p>Vowlink's success is driven by our expert team. With a passion for e-learning and franchising, we provide comprehensive support to our franchisees, ensuring their growth and success.</p> */}

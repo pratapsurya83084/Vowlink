@@ -22,10 +22,14 @@ import React from 'react';
 
 const TwoButtons = () => {
   return (
-    <div className='font-type flex flex-col items-center bg-gradient-to-r bg-[#683695] to-teal-600 mt-20 mx-4 lg:mx-20 mb-20 py-12 px-6 rounded-lg shadow-2xl'>
-      <p className='text-center text-white text-xl sm:text-2xl  lg:text-3xl font-bold px-4 mb-8'>
-        "At VL, we aim to tailor tomorrow’s global leaders and visionaries <br />
-        through our expert-designed courses and tools.”
+    // to-teal-600
+    <div className='font-type flex flex-col items-center bg-gradient-to-r bg-[#683695] border border-white   mt-20 mx-4 lg:mx-20 mb-20 py-12 px-6 rounded-lg shadow-2xl'>
+      <p className='text-center text-white text-xl sm:text-2xl  lg:text-3xl font-bold px- mb-8'>
+      At VL, we aim to shape tomorrow’s global leaders 
+      and visionaries through our expert-designed business
+       approaches and highly efficient technology tools.
+        Join our franchise and be a part of this transformative journey.
+
       </p>
       {/* 2 buttons */}
       <div className='flex flex-col sm:flex-row justify-center gap-5 w-full sm:w-auto'>

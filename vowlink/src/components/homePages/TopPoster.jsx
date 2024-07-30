@@ -59,56 +59,23 @@ import React from 'react';
 
 const LandingPage = () => {
   return (
-    // <div className="bg-darkBlue  px-2 md:px-0 text-white">
-    //         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-12">
-    //     <div className="md:w-1/2">
-    //       {/* <div className="bg-blue-900 inline-block px-4 py-1 rounded-full text-sm">
-    //         Payroll Software</div> */}
-    //       <h1 className="text-4xl md:text-5xl font-bold mt-6">
-    //       Learn, Grow, Thrive with us!
-    //         </h1>
-    //       <p className="text-lg mt-6">
-    //       Global platform providing quality vocational courses and education
-    //       </p>
-    //       <div className="mt-6 space-x-4">
-    //         <button className="bg-orange-500 px-6 py-3 rounded text-white font-bold">
-    //         ENQUIRE NOW
-    //           </button>
-    //         {/* <button className="bg-gray-700 px-6 py-3 rounded text-white font-bold">VIEW PRICING</button> */}
-    //       </div>
-    //       {/* <div className="mt-4 text-sm text-gray-400 flex items-center">
-    //         <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M5.293 12.707a1 1 0 010-1.414l3.172-3.172a4 4 0 015.656 0l1.172 1.172 1.172-1.172a1 1 0 011.414 0l2.122 2.122a1 1 0 010 1.414l-2.122 2.122a1 1 0 01-1.414 0L15.95 11.95l-1.172 1.172a4 4 0 01-5.656 0l-3.172 3.172a1 1 0 01-1.414 0z" clipRule="evenodd" /></svg>
-    //         India's only fully automated 
-    //       </div> */}
-    //     </div>
-        
-    //     <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
-    //       <div className=" p-8 rounded-lg">
-           
-    //         <img src="/postervowlink.png" 
-           
-    //         alt="Person working"
-    //          className="mt-6 rounded-md" />
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
+   
 
-
-<section className="font-type m-5 md:m-20   bg-gradient-to-r from-purple-500 to-indigo-500 rounded-lg shadow-xl body-font bg-transparent relative">
-  <div className="container mx-auto flex lg:gap-20 md:px-2 lg:px-14 py-4  md:py-24 md:flex-row flex-col items-center">
-  <div className="lg:flex-grow md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center p-6
+<section className="font-type m-5 md:m-20 pb-10 md:pb-0   bg-gradient-to-r from-purple-500 to-indigo-500 rounded-lg shadow-xl body-font bg-transparent relative">
+  <div className="container mx-auto flex md:flex-row flex-col lg:gap-24 md:px-1 lg:px-10 py-4  md:py-24  items-center">
+  {/* left side text  ,lg:flex-grow*/}
+  <div className=" md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center p-6
 ">
-      <h1 className="title-font text-2xl sm:text-4xl   xl:text-5xl  lg:whitespace-nowrap  mb-4 font-medium text-white animate-fadeIn drop-shadow-lg">
+      <div className="title-font text-2xl sm:text-4xl flex-wrap   xl:text-5xl  lg:whitespace-nowrap  mb-4 font-medium text-white animate-fadeIn drop-shadow-lg">
         {/* Learn, Grow and Thrive  with us! */}
-        Learn, Earn, and Build Your 
+        Learn, Earn, and Build Your  
         <br className='hidden md:flex' />
-         <h2 className='md:mt-2'>Business Empire!</h2>
-      </h1>
+         <h2 className='md:mt-2'>Business Future with VL <br className='hidden md:flex'/> Academy</h2>
+      </div>
       <p className="text-sm sm:text-lg mb-8 leading-relaxed text-white animate-fadeIn drop-shadow-lg">
         {/* Global platform providing quality vocational courses and education */}
-        Transform Your Dreams into Reality with Our Top-Tier Global Business Education 
-        and Innovative Vocational Courses
+        Transform Your Career and Business Prospects with Our World-Class Franchise Program
+
       </p>
       <div className="flex justify-center">
         <button className="bg-orange-500 px-6 py-3 rounded text-white font-bold hover:bg-orange-600 transition-all shadow-lg animate-bounce">
@@ -116,8 +83,9 @@ const LandingPage = () => {
         </button>
       </div>
     </div>
-    <div className="lg:max-w-lg lg:w-full md:mr-5 md:w-1/2 w-5/6 relative">
-      <div className="relative p-6 bg-purple-500 bg-opacity-30 rounded-lg shadow-lg">
+    {/* img right side */}
+    <div className="lg:max-w-lg  lg:w-full md:mr-5 md:w-1/2 w-5/6 relative">
+      <div className="relative p-6 bg-purple-500 border border-white bg-opacity-30 rounded-lg shadow-lg">
         <img className="object-cover object-center rounded border-4 border-purple-500 animate-slideIn" alt="hero"
           src="/buisness_vowlinkpostter-removebg.png" />
       </div>

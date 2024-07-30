@@ -465,15 +465,31 @@ const Testimonials = () => {
 
   // Testimonial data
   const testimonials = [
-    { name: "Sophie Carter", text: "Vowlink has been a game-changer for me. The specialized business curriculum gave me the confidence to start my own venture, and the hands-on projects made all the difference. Highly recommend!" },
-    { name: "Raj Patel", text: "The quality of education at Vowlink is top-notch. The expert mentors provided invaluable insights, and the flexible learning options were perfect for balancing my work and studies. A great investment in my future!" },
-    { name: "Emily Johnson", text: "Vowlink's innovative courses are exactly what I needed to take my business ideas to the next level. The practical approach and networking opportunities have opened new doors for me." },
-    { name: "Carlos Mendoza", text: "I was impressed by the breadth of topics covered and the real-world applications of the lessons. Vowlink’s curriculum is comprehensive and relevant, making it easy to apply what I learned immediately." },
-    { name: "Aisha Ahmed", text: "Joining Vowlink was one of the best decisions I've made. The community is supportive, the mentors are experienced, and the flexibility of the courses allowed me to learn at my own pace while working full-time." },
-    { name: "Michael Lee", text: "Vowlink offers an exceptional learning experience with its top-tier global business education. The ability to work on real business scenarios and the access to industry experts have been incredibly valuable." },
-    { name: "Priya Sharma", text: "The hands-on learning approach at Vowlink really sets it apart. I’ve been able to directly apply the concepts to my own projects, and the networking opportunities have been fantastic for my career growth." },
-    { name: "John Roberts", text: "I’ve taken several online courses, but Vowlink stands out for its practical approach and expert instructors. The flexible options allowed me to tailor my learning experience to fit my busy schedule." },
-    { name: "Lena Thompson", text: "Vowlink has provided me with the tools and knowledge needed to start earning while learning. The innovative courses and supportive community have been instrumental in my entrepreneurial journey." },
+    { name: "Rahul Mehta, Franchise Owner, India", text: "Partnering with VL Academy has been a transformative experience. Their franchise model and support have been key to our success." },
+    { name: "*Sarah Thompson, Franchisee, UK", text: "The quality of education at Vowlink is top-notch. The expert mentors provided invaluable insights, and the flexible learning options were perfect for balancing my work and studies. A great investment in my future!" },
+    { name: "Priya Patel, Franchise Owner, India*", text: "Vowlink's innovative courses are exactly what I needed to take my business ideas to the next level. The practical approach and networking opportunities have opened new doors for me." },
+    
+    { name: "James Collins, Franchise Partner, UK", text:  "As a VL Academy franchisee, I've benefited from their cutting-edge educational tools and robust business model. It’s a rewarding partnership." },
+//  5th
+    { name: "Alicia Wong, Franchisee, Singapore", text: "The VL Academy franchise has provided invaluable resources and support, enabling us to excel in the competitive Tokyo market." },
+   //6th 
+    { name: "Kenji Tanaka, Franchise Owner, Tokyo",
+       text: 
+       "The VL Academy franchise has provided invaluable resources and support, enabling us to excel in the competitive Tokyo market."
+    },
+    //7th
+       { name: "Samantha Lee, Franchise Partner, Singapore",
+         text:
+         "Joining VL Academy as a franchisee has been a fantastic decision. Their proven methods and comprehensive support have helped our business thrive."
+      },
+      // 8th
+    { name: "*Haruki Nakamura, Franchisee, Tokyo", 
+      text:    "VL Academy’s franchise opportunity has empowered us with the tools and knowledge needed to succeed in the competitive business landscape."
+    },
+    // 9th
+    { name: "*Vikram Singh, Franchise Owner, India",
+       text:   "Partnering with VL Academy has significantly boosted our business. Their franchise model is effective and their support is exceptional."
+      },
   ];
 
   return (

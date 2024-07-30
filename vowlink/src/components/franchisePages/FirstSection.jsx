@@ -10,7 +10,7 @@ import React from "react";
 
 const FirstSection = () => {
   return (
-    <section className="text-white mt-0 pt-32  ">
+    <section className="font-type text-white mt-0 pt-32  ">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-xl sm:text-4xl md:text-5xl font-bold mb-4">

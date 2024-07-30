@@ -18,7 +18,7 @@
 //         </div>
 //         <div className="text-center max-w-3xl mx-auto mb-12">
 //           <p className="text-lg ">
-//           Vowlink Learning is a skill-focused educational 
+//           Vowlink Learning is a skill-focused educational
 //           platform dedicated to transforming lives through high-quality,
 //            comprehensive courses. Recognizing the dynamic nature of today's
 //             job market, we offer expertly designed programs tailored to
@@ -29,16 +29,14 @@
 //            embark on a career change, or just starting your professional
 //             journey, Vowlink Learning has a program designed specifically for you.
 //              Our commitment lies in providing engaging and unique learning experiences
-//               that equip individuals with the necessary 
+//               that equip individuals with the necessary
 //           skills to succeed in their chosen paths.
 
 //           </p>
 //         </div>
 
-      
-
 //         <div className="flex justify-center space-x-4">
-        
+
 //           <button className="bg-  border border-yellow-400 text-yellow-400 px-6 py-3 rounded-md">
 //          Learn more about
 //           </button>
@@ -49,8 +47,6 @@
 // };
 
 // export default AboutSections;
-
-
 
 // import React from "react";
 
@@ -113,13 +109,6 @@
 
 // export default AboutSections;
 
-
-
-
-
-
-
-
 import React from "react";
 
 const AboutSections = () => {
@@ -130,7 +119,7 @@ const AboutSections = () => {
       <div className="relative container mx-auto px-4 ">
         <div className="flex flex-col items-center justify-center p-6">
           <div className="md:flex md:items-center md:justify-center md:space-x-8">
-           {/* show small size device */}
+            {/* show small size device */}
             <div className="md:hidden mb-20 ">
               <h2 className="text-2xl sm:text-4xl  text-center font-bold animate-fadeIn">
                 About Vowlink
@@ -140,8 +129,7 @@ const AboutSections = () => {
               <div className="absolute inset-y-0 left-0 w-full transform -translate-x-10 md:w-2/3 dotted-background"></div>
               <div className="relative w-full z-10">
                 <img
-                  
-                 src="https://img.freepik.com/free-photo/business-marketing-strategy-plan-operations_53876-13784.jpg?t=st=1722250007~exp=1722253607~hmac=21cc9a327e788ef2b964ba1ab3219bcd1dfce190dcbef9a8bc3a4956fbc631d4&w=740"
+                  src="https://img.freepik.com/free-photo/business-marketing-strategy-plan-operations_53876-13784.jpg?t=st=1722250007~exp=1722253607~hmac=21cc9a327e788ef2b964ba1ab3219bcd1dfce190dcbef9a8bc3a4956fbc631d4&w=740"
                   alt="Vowlink Learning"
                   className="w-full max-w-lg rounded-lg transform transition-transform duration-700 hover:scale-105 animate-slideInLeft relative"
                 />
@@ -153,15 +141,18 @@ const AboutSections = () => {
                   About Vowlink
                 </h2>
               </div>
-              <p className="text-lg md:text-xl mt-5">
-                Welcome to Vowlink, an innovative e-learning platform tailored
-                exclusively for aspiring business leaders and entrepreneurs. At
-                Vowlink, we believe in empowering individuals with the
-                knowledge, skills, and tools necessary to turn their ambitions
-                into successful ventures. Our unique "Learn, Earn, and Build
-                Your Business Empire!" approach is designed to guide you through
-                the entire journey of becoming a business professional, from
-                foundational learning to practical implementation.
+              <p className="text-lg text-left md:text-xl mt-5">
+                Welcome to Vowlink or VL Academy,
+                 the premier offline learning
+                platform for aspiring business 
+                leaders and entrepreneurs. <br />
+                <span className=" font-bold text-center block mt-5 mb-0">Our 'Learn, Earn, and  Build Your 
+                  Business Empire!</span> <br />
+                The approach empowers you with the
+                 knowledge, skills, and tools to turn
+                  your ambitions into successful ventures.
+                   Join our franchise and start your transformative 
+                   journey today.
               </p>
             </div>
           </div>
@@ -172,4 +163,3 @@ const AboutSections = () => {
 };
 
 export default AboutSections;
-
