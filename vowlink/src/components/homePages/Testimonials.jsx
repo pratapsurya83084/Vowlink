@@ -443,21 +443,21 @@ const Testimonials = () => {
         breakpoint: 640, // mobile screens
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
         },
       },
       {
         breakpoint: 768, // small screens
         settings: {
           slidesToShow: 2, //image 2 show
-          slidesToScroll: 1,
+          slidesToScroll: 2,
         },
       },
       {
         breakpoint: 2560, // medium screens
         settings: {
           slidesToShow: 3, //image number for each slide
-          slidesToScroll: 1, //slide number
+          slidesToScroll: 3, //slide number
         },
       },
     ],
@@ -465,13 +465,23 @@ const Testimonials = () => {
 
   // Testimonial data
   const testimonials = [
-    { name: "Rahul Mehta, Franchise Owner, India", text: "Partnering with VL Academy has been a transformative experience. Their franchise model and support have been key to our success." },
-    { name: "*Sarah Thompson, Franchisee, UK", text: "The quality of education at Vowlink is top-notch. The expert mentors provided invaluable insights, and the flexible learning options were perfect for balancing my work and studies. A great investment in my future!" },
-    { name: "Priya Patel, Franchise Owner, India*", text: "Vowlink's innovative courses are exactly what I needed to take my business ideas to the next level. The practical approach and networking opportunities have opened new doors for me." },
-    
-    { name: "James Collins, Franchise Partner, UK", text:  "As a VL Academy franchisee, I've benefited from their cutting-edge educational tools and robust business model. It’s a rewarding partnership." },
+    // 1st
+    { name: "Rahul Mehta, Franchise Owner, India", 
+      text: "Partnering with VL Academy has been a transformative experience. Their franchise model and support have been key to our success." },
+    //2nd
+      { name: "Sarah Thompson, Franchisee, UK",
+         text: "The VL Academy franchise has provided exceptional value. Their comprehensive training and resources helped us establish a thriving business."
+ },
+    //3rd
+      { name: "Priya Patel, Franchise Owner, India", 
+        text:  "Becoming a VL Academy franchisee has greatly enhanced our business operations. Their innovative approach and support are unmatched."
+      },
+    // 4rth
+    { name: "James Collins, Franchise Partner, UK",
+       text:  "As a VL Academy franchisee, I've benefited from their cutting-edge educational tools and robust business model. It’s a rewarding partnership." },
 //  5th
-    { name: "Alicia Wong, Franchisee, Singapore", text: "The VL Academy franchise has provided invaluable resources and support, enabling us to excel in the competitive Tokyo market." },
+    { name: "Alicia Wong, Franchisee, Singapore",
+       text:   "VL Academy's franchise program has been outstanding. Their expert-designed courses and marketing support have driven our success." },
    //6th 
     { name: "Kenji Tanaka, Franchise Owner, Tokyo",
        text: 
@@ -483,11 +493,11 @@ const Testimonials = () => {
          "Joining VL Academy as a franchisee has been a fantastic decision. Their proven methods and comprehensive support have helped our business thrive."
       },
       // 8th
-    { name: "*Haruki Nakamura, Franchisee, Tokyo", 
+    { name: "Haruki Nakamura, Franchisee, Tokyo", 
       text:    "VL Academy’s franchise opportunity has empowered us with the tools and knowledge needed to succeed in the competitive business landscape."
     },
     // 9th
-    { name: "*Vikram Singh, Franchise Owner, India",
+    { name: "Vikram Singh, Franchise Owner, India",
        text:   "Partnering with VL Academy has significantly boosted our business. Their franchise model is effective and their support is exceptional."
       },
   ];
@@ -496,7 +506,7 @@ const Testimonials = () => {
     <section className="font-type px-0 md:px-5 lg:px-40 xl:px-60 2xl:px-80 ">
 
       <div className="text-center mt-10   text-white font-bold p- px-4">
-        <h2 className="text-2xl sm:text-4xl lg:text-5xl ">The Vowlink Hall of Fame</h2> <br />
+        <h2 className="text-2xl sm:text-4xl lg:text-5xl "> Vowlink Hall of Fame</h2> <br />
        <p className="text-lg"> Our learners can't stop raving. Discover why.</p>
       </div>
 

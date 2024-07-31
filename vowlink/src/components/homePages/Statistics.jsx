@@ -2,27 +2,43 @@
 import React from 'react';
 
 const statistics = [
+  // 1st
   {
-    title: "Students Enrolled",
-    value: "15,000+",
-    description: "Active students currently enrolled in our courses."
+    title: "Global Presenc",
+    value: "100+ ",
+    description: "Franchise Locations Worldwide Our franchise network spans across major regions, including India, the UK, Singapore, and Tokyo."
   },
+  //2nd
   {
-    title: "Courses Available",
-    value: "120+",
-    description: "Variety of courses available across multiple disciplines."
+    title: "Successful Graduates",
+    value: "10,000+",
+    description: " Empowered more than 10,000 individuals with the skills and knowledge to excel in their business ventures."
   },
+  //3rd
   {
-    title: "Instructors",
-    value: "50+",
-    description: "Expert instructors with extensive industry experience."
+    title: "Industry Recognition",
+    value: "10+",
+    description: " Received accolades for excellence in business education and innovative e-learning solutions."
   },
+  //4rth
   {
-    title: "Success Rate",
+    title: "Revenue Growth",
+    value: "200%",
+    description: "Achieved a remarkable 200% growth in franchise revenue over the past three years."
+  },
+
+  // 5th
+  {
+    title: "High Satisfaction Rate",
     value: "95%",
-    description: "Percentage of students who have successfully completed their courses."
+    description: "Maintained a 95% satisfaction rate among our franchise partners, reflecting the quality and effectiveness of our support."
   },
-  // Add more statistics as needed
+  // 6th
+  {
+    title: "Expanding Market Reach",
+    value: "50%",
+    description: "Expanded our market presence by 50% in new regions and sectors, demonstrating our growing influence and reach."
+  },
 ];
 
 const Statistics = () => {
@@ -36,7 +52,7 @@ const Statistics = () => {
             Our Achievements</p>
         </div>
         <div className="mt-10">
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {statistics.map((stat, index) => (
                 // bg-white,shadow-lg
               <div key={index} className="           transition-transform transform hover:scale-105 shadow-lg  rounded-lg p-6 text-center">
