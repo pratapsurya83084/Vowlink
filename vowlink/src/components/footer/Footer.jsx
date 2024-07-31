@@ -19,7 +19,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="font-type   bg-gray-50 text-gray-600 py-12">
+    <footer className="font-jost   bg-gray-50 text-gray-600 py-12">
       <div className="container mx-auto px-4">
         <div className="lg:flex justify-center lg:justify-between lg:px-36 gap-1">
           {/* left side */}

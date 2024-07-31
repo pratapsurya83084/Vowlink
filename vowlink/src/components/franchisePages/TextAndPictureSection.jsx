@@ -37,7 +37,7 @@ import React from 'react'
 const TextAndPictureSection = () => {
   return (
     <div>
-      <section class="text-white body-font">
+      <section class="font-jost text-white body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="hidden md:flex lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img class="object-cover object-center rounded" alt="hero" 

@@ -44,7 +44,7 @@ const statistics = [
 const Statistics = () => {
   return (
     // bg-gray-200
-    <section className="font-type py-12 mt-20 ">
+    <section className="font-jost py-12 mt-20 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           
@@ -64,6 +64,10 @@ const Statistics = () => {
           </div>
         </div>
       </div>
+    {/* button */}
+    <div className="flex justify-center pb-10">
+                <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Start Now</button>
+              </div>
     </section>
   );
 };

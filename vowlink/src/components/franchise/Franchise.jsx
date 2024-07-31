@@ -12,14 +12,15 @@ const Franchise = () => {
   return (
     <Layout>
       <div>
-        <FirstSection />
-        <AboutSection />
-        <TextAndPictureSection />
+        {/* <FirstSection /> */}
+        <FranchiseComparison />
+        {/* <AboutSection /> */}
+        {/* <TextAndPictureSection /> */}
         <Benefits />
         <FranchiseProcess />
-        <VidioSection />
+        {/* <VidioSection /> */}
         <OppourtunitySection />
-        <FranchiseComparison />
+        
       </div>
     </Layout>
   );

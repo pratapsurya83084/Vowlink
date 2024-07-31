@@ -2,13 +2,13 @@ import React from 'react';
 
 const StudentSupportServices = () => {
   return (
-    <section className="font-type py-12">
+    <section className="font-jost py-12">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold  text-center
          mb-8 text-white">Student Support Services</h2>
       
   {/* 1th cards */}
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className=" grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="bg-gray-100   font-type         transition-transform transform hover:scale-105 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-4">
             Comprehensive Assistance
@@ -80,6 +80,10 @@ const StudentSupportServices = () => {
           </div>
         </div>
       </div>
+       {/* button */}
+       <div className="flex justify-center pb-10">
+                <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Start Now</button>
+              </div>
     </section>
   );
 };

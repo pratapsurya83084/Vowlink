@@ -3,7 +3,7 @@ import React from "react";
 
 const EnrollmentAndAdmissions = () => {
   return (
-    <section className="font-type py-12 bg-white">
+    <section className="font-jost py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center">
           {/* Text Section */}
@@ -12,19 +12,17 @@ const EnrollmentAndAdmissions = () => {
               Join VL Academy Today as a Franchise Partner
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Transform Your Future with Us Expand Your Horizons  Become a VL
+              Transform Your Future with Us Expand Your Horizons Become a VL
               Academy franchise partner and tap into a global network of
               successful business leaders and entrepreneurs. Access Exclusive
-              Resources  Benefit from our cutting-edge educational tools,
-              comprehensive training, and ongoing support. Drive Success 
+              Resources Benefit from our cutting-edge educational tools,
+              comprehensive training, and ongoing support. Drive Success
               Leverage our proven business model to build and grow a thriving
-              educational franchise.
-
-              
-Why Wait?
-Partner with Excellence : Join a leading e-learning platform and offer top-tier business education. <br />
-Make a Difference : Empower others while achieving substantial returns on your investment.
-
+              educational franchise. Why Wait? Partner with Excellence : Join a
+              leading e-learning platform and offer top-tier business education.{" "}
+              <br />
+              Make a Difference : Empower others while achieving substantial
+              returns on your investment.
             </p>
             <div className="mt-6 flex justify-center sm:justify-start gap-4">
               <button
@@ -32,7 +30,7 @@ Make a Difference : Empower others while achieving substantial returns on your i
                  text-
                  bg-orange-500 text-white font-bold rounded-md shadow "
               >
-             Get Started Now!
+                Get Started Now!
               </button>
               {/* <a 
                 href="#admissions"

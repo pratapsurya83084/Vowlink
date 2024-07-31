@@ -103,7 +103,8 @@ const steps = [
 const HowworkFranchise = () => {
   return (
     <div>
-      <section class="text-white body-font">
+      <section class="font-jost text-white ">
+  <h1 className='text-center text-2xl sm:text-4xl lg:text-5xl mt-10  font-bold'>How It Works with VL ACADEMY?</h1>
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <img class="object-cover object-center rounded" alt="hero" 

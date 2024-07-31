@@ -503,7 +503,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="font-type px-0 md:px-5 lg:px-40 xl:px-60 2xl:px-80 ">
+    <section className="font-jost px-0 md:px-5 lg:px-40 xl:px-60 2xl:px-80 ">
 
       <div className="text-center mt-10   text-white font-bold p- px-4">
         <h2 className="text-2xl sm:text-4xl lg:text-5xl "> Vowlink Hall of Fame</h2> <br />
@@ -525,6 +525,10 @@ const Testimonials = () => {
           ))}
         </Slider>
       </div>
+       {/* button */}
+       <div className="flex justify-center pb-10">
+                <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Start Now</button>
+              </div>
     </section>
   );
 };

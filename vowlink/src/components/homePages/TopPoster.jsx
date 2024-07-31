@@ -1,58 +1,4 @@
 
-// import React from "react";
-
-// const TopPoster = () => {
-//   return (
-//     // <div className="">
-//     // mx-auto
-//       // <main className="container  px- mt-10 py-12">
-//       <div className="flex flex-col lg:flex-row justify-center items-center gap- mx-auto lg:px-20 mt-20 text-white">
-//   {/* Text Content */}
-//   <div className="text-center lg:text-left lg:max-w-lg lg:mr-8 mb-6 lg:mb-0">
-//     <h1 className="text-3xl p-2 md:text-5xl xl:text-6xl lg:whitespace-nowrap font-bold mb-4">
-//       Learn, Grow, Thrive with us!
-//     </h1>
-//     <p className="text-lg md:text-2xl lg:text-3xl mb-6">
-//       Global platform providing quality vocational courses and education.
-//     </p>
-//     <div className="flex justify-center gap-4 mb-6">
-//       <div className="text-center">
-//         <p className="text-xl font-bold">75,000+</p>
-//         <p>Placements</p>
-//       </div>
-//       <div className="text-center">
-//         <p className="text-xl font-bold">50,000+</p>
-//         <p>Career Transitions</p>
-//       </div>
-//       <div className="text-center">
-//         <p className="text-xl font-bold">20+</p>
-//         <p>Courses and Programs</p>
-//       </div>
-//     </div>
-//     <button className="mt-6 bg-yellow-500 text-black py-4 px-10  rounded hover:bg-yellow-400 transition-colors">
-//       Enquire Now
-//     </button>
-//   </div>
-
-//   {/* Image */}
-//   <div className="flex justify-center  w-full   ">
-//     <img
-//       src="/postervowlink.png"
-//       alt="Career Image"
-//       className=" h-80 w-auto lg:h-[500px] lg:w-[500px] max-w-xs lg:max-w-sm xl:max-w-md"
-//     />
-//   </div>
-// </div>
-
-    
-//       // </main>
-
-      
-//     // {/* </div> */}
-//   );
-// };
-
-// export default TopPoster;
 
 
 import React from 'react';
@@ -61,7 +7,7 @@ const LandingPage = () => {
   return (
    
 
-<section className="font-type m-5 md:m-20 pb-10 md:pb-0   bg-gradient-to-r from-purple-500 to-indigo-500 rounded-lg shadow-xl body-font bg-transparent relative">
+<section className="font-jost m-5 md:m-20 pb-10 md:pb-0   bg-gradient-to-r from-purple-500 to-indigo-500 rounded-lg shadow-xl body-font bg-transparent relative">
   <div className="container mx-auto flex md:flex-row flex-col lg:gap-24 md:px-1 lg:px-10 py-4  md:py-24  items-center">
   {/* left side text  ,lg:flex-grow*/}
   <div className=" md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center p-6
