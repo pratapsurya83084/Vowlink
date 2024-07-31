@@ -4,7 +4,8 @@ import React from "react";
 
 const AboutSections = () => {
   return (
-    <div className="font-jost relative bg-gradient-to-r from-white to-white-900 py-16 text-black">
+    // bg-gradient-to-r  from-white to-white-900
+    <div className="font-jost relative bg-white  py-16 text-black">
       <div className="absolute inset-0"></div>
       {/* sm:py-16 */}
       <div className="relative container mx-auto px-4 ">
@@ -37,7 +38,7 @@ const AboutSections = () => {
                  the premier offline learning
                 platform for aspiring business 
                 leaders and entrepreneurs. <br />
-                <span className=" font-bold text-center block mt-5 mb-0">Our 'Learn, Earn, and  Build Your 
+                <span className=" font-bold text-center block mt-5 mb-0">Our Learn, Earn, and  Build Your 
                   Business Empire!</span> <br />
                 The approach empowers you with the
                  knowledge, skills, and tools to turn

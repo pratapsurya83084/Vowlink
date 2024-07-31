@@ -8,7 +8,7 @@ const TwoButtons = () => {
       <p className='text-center text-white text-xl sm:text-2xl  lg:text-3xl font-bold px- mb-8'>
       At VL, we aim to shape tomorrow’s global leaders 
       and visionaries through our expert-designed business
-       approaches and highly efficient technology tools.
+       approaches and highly efficient technology tools. <br />
         Join our franchise and be a part of this transformative journey.
 
       </p>

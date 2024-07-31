@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* items-center */}
         <div className="flex flex-1  ">
           <Link to="/" className=" ">
-            <span className="sr-only ">vowlink Company</span>
+            {/* <span className="sr-only ">vowlink Company</span> */}
             {/* vowlink logo */}
             <img
               className="h-24"
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className=" flex gap-2 sm:gap-10">
           <div className="hidden md:flex">
             <a href="https://bisjhintus.com/">
-              <button className="bg-white hover:bg-gray-100 focus:bg-slate-100  text-black px-5 py-3 rounded text-lg">
+              <button className="bg-violet-500 hover:bg-violet-600  focus:bg-violet-700   px-5 py-3 rounded text-lg">
                 Visit Global
               </button>
             </a>
@@ -57,8 +57,8 @@ const Navbar = () => {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(true)}
-              // text-gray-700
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
+              // text-gray-700,-m-2.5
+              className=" inline-flex items-center text-black justify-center rounded-md p-2.5"
             >
               <span className="sr-only">Open main menu</span>
               <Bars3Icon aria-hidden="true" className="h-9 w-9 " />
@@ -81,7 +81,8 @@ const Navbar = () => {
               <img
                 alt=""
                 src="\vowlink_logo_header.png"
-                className="h-24 w-auto "
+                // w-auto
+                className="h-24  "
               />
             </Link>
             <button
@@ -99,14 +100,14 @@ const Navbar = () => {
               <div className="space-y-2 py-6">
                 <Link
                   to="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3  block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-violet-500 hover:bg-gray-50"
                 >
                   Home
                 </Link>
 
                 <Link
                   to="/franchise"
-                  className="-mx-3 block font-jost rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block font-jost rounded-lg px-3 py-2 text-base font-semibold leading-7 text-violet-500 hover:bg-gray-50"
                 >
                   Franchise
                 </Link>
@@ -114,7 +115,7 @@ const Navbar = () => {
                 {/* button show in phone size and medium size hidden*/}
                 <div className="md:hidden flex">
                   <a href="https://bisjhintus.com/">
-                    <button className="bg-cyan-500 text-white px-5 py-3 rounded text-lg">
+                    <button className="bg-violet-500 hover:bg-violet-600  focus:bg-violet-700  text-white px-5 py-3 rounded text-lg">
                       Visit Global
                     </button>
                   </a>
