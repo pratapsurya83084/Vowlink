@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav
         aria-label="Global"
         // bg-gray-50
-        className="font-type bg-[#0c9db3] text-white    flex items-center
+        className="font-type bg-white text-white    flex items-center
    p-2 lg:px-8
     top-0 w-full"
       >
@@ -33,11 +33,11 @@ const Navbar = () => {
         {/* Large menu links */}
         {/* lg:mr-[400px]  */}
         <div className="hidden m-3 lg:flex lg:flex-1  lg:gap-x-12">
-          <Link to="/" className="hover:text-gray-200 text-xl">
+          <Link to="/" className="  text-violet-500  text-xl">
             Home
           </Link>
 
-          <Link to="/franchise" className="hover:text-gray-200 text-xl">
+          <Link to="/franchise" className=" text-violet-500   text-xl">
             Franchise
           </Link>
         </div>

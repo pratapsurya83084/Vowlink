@@ -128,11 +128,7 @@ const EventAcademy = () => {
       description: "Stay tuned for special promotions, discounts, and opportunities to join our growing network of successful franchise partners.",
       imageUrl: "https://franchising.bisjhintus.com/img/INTERNSHIP.png",
     },
-    {
-      title: "Stay Connected",
-      description: "Follow us on social media and subscribe to our newsletter to keep up with all the exciting developments at VL Academy.",
-      imageUrl: "https://franchising.bisjhintus.com/img/ONLINE%20CLASS%20FOR%20CAT.png",
-    },
+  
   ];
 
   return (
@@ -157,7 +153,8 @@ const EventAcademy = () => {
       </div>
        {/* button */}
        <div className="flex justify-center pb-10">
-                <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Start Now</button>
+                <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">
+                  Stay Connected</button>
               </div>
     </div>
   );
