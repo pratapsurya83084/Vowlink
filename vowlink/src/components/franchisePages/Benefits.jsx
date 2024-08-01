@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Benefit = ({ icon, title, description }) => (
-  <div className="relative bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
+  <div className="relative border border-blue-400 bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
     <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 flex items-center justify-center bg-yellow-500 text-white rounded-full">
       <img src={icon} alt={`${title} Icon`} className="w-8 h-8" />
     </div>

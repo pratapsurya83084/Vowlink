@@ -121,9 +121,19 @@ import React from 'react'
 
 const WhyChoosevl = () => {
   return (
-    <div>
+    <div className='text-white'>
+      <h2 className="text-2xl sm:text-4xl lg:text-5xl    pt-10 font-bold text-center mb-5 ">
+         Why Choose VL Academy Franchise?
+         </h2>
+           <h3 className="text-center p-2  mb-10 text-lg  sm:text-xl">
+              As a franchise partner, you'll help shape future leaders 
+              and drive success in the global marketplace. <br />
+               Partner with us to make a lasting impact.
+           </h3>
       <div className="text-white flex justify-center">
+  
   <div className="text-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-14 p-4 pb-10">
+  
     {/* box1 */}
     <div className="border rounded-2xl shadow-2xl p-2 flex-1 transition-transform transform hover:scale-105">
       yet to be add icon
@@ -201,8 +211,9 @@ const WhyChoosevl = () => {
       yet to be add icon
       <h3 className="text-2xl font-semibold mb-4">Community and Networking</h3>
       <p className="text-lg">
-        Join a Community of Entrepreneurs <br />
-         Be part of a network of like-minded <br />  business owners and entrepreneurs.
+        Join a Community of Entrepreneurs  Be part of  a <br className='hidden md:flex'/>
+         network of  like-minded  
+          business owners and entrepreneurs.
       </p>
     </div>
   </div>

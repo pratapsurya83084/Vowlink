@@ -117,126 +117,126 @@ const FranchiseComparison = () => {
     <div className="font-jost p-6 md:p-10 lg:px-20">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* 1st box */}
-        <div className="text-center rounded-3xl bg-gray-100 ">
+        <div className="text-center md:text-xl rounded-3xl  bg-gray-100 ">
           <ul className="space-y-0">
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-gradient-to-r bg-yellow-300 rounded-tl-3xl   rounded-tr-3xl md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Competitiveness</strong>
             </li>
-            <li className="bg-gray-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Leadership</strong>
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Quality</strong>
             </li>
-            <li className="bg-gray-300  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Quires</strong>
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Idea Generation Techniques</strong>
             </li>
-            <li className="bg-gray-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Invest With Support</strong>
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Technology</strong>
             </li>
-            <li className=" bg-gray-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className=" bg-violet-500 text-white md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Education/ Training</strong>
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Market Research/ Gap Analysis</strong>
             </li>
-            <li className="bg-gray-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Swot Analysis</strong>
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Marketing Tactics</strong>
             </li>
-            <li className="bg-gray-300 rounded-bl-3xl rounded-br-3xl md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center ">
+            <li className="bg-violet-500 text-white rounded-bl-3xl rounded-br-3xl md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center ">
               <strong>Revenue</strong>
             </li>
           </ul>
         </div>
 
         {/* 2nd box */}
-        <div className="text-center  bg-gray-100  rounded-3xl">
+        <div className="text-center text-lg bg-gray-100  rounded-3xl">
           <ul className="space-y-0">
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b  border-gray-300">
+            <li className=" bg-yellow-300 rounded-tl-3xl   rounded-tr-3xl md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b  border-gray-300">
               <strong>Vowlink Franchising</strong>
             </li>
-            <li className="bg-gray-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b  border-gray-300">
+            <li className="bg-violet-500 text-white md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b  border-gray-300">
               Senior leadership no middle man (CEO, FOUNDERS)
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center bg-gray-200 border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Devoted towards franchising partner, unlimited team understanding
             </li>
-            <li className="bg-gray-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               24*7 Ask question by franchising partner top notch leaders with take care any issue
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Fresh perspective with new ideas for our franchising partner for better sale growth
             </li>
-            <li className="bg-gray-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Provide always clientele systems for 24*7
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               High growth software and new generation tech-savvy (DIGITAL FOOTPRINT)
             </li>
-            <li className="bg-gray-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bgg-v bg-violet-500 text-white md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Always (24*7) towards our franchising partner global training process for strategies, marketing & sale
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Vowlink will provide always for our franchising partner
             </li>
-            <li className="bg-gray-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Vowlink will accurately compare our franchising partners SWOT for better future approach in pricing and sale
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Vowlink will 24*7 serve the marketing tactics for our franchising partner
             </li>
-            <li className="bg-gray-300    rounded-bl-3xl rounded-br-3xl md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center ">
+            <li className="bg-violet-500 text-white     rounded-bl-3xl rounded-br-3xl md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center ">
               Vowlink always serve to franchising partner to more and more
             </li>
           </ul>
         </div>
 
         {/* 3rd box */}
-        <div className="text-center bg-gray-100 rounded-3xl">
+        <div className="text-center text-lg   bg-gray-100 rounded-3xl">
           <ul className="space-y-0">
-            <li className="  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 rounded-tl-3xl   rounded-tr-3xl  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               <strong>Others Franchising</strong>
             </li>
-            <li className="bg-gray-300  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Senior leadership (MANAGER, ASSOCIATE)
             </li>
-            <li className=" md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Devoted towards growing revenue, slow team bonding
             </li>
-            <li className="bg-gray-300  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Monthly asking question systems with communicating with top notch leaders
             </li>
-            <li className="  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Ideas single align always
             </li>
-            <li className="bg-gray-300  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Normally the local franchising is tackle the issue
             </li>
-            <li className="  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className=" bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Only compliance and billing system techniques
             </li>
-            <li className="bg-gray-300  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Providing as tele-training for growth business
             </li>
-            <li className="  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className=" bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Company will always take over
             </li>
-            <li className="bg-gray-300  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-violet-500 text-white  md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Making analysis for market or company product
             </li>
-            <li className="md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
+            <li className="bg-yellow-300 md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center  border-b border-gray-300">
               Marketing towards customer base
             </li>
-            <li className="bg-gray-300  rounded-bl-3xl rounded-br-3xl md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center ">
+            <li className="bg-violet-500 text-white  rounded-bl-3xl rounded-br-3xl md: md:pb- px-2 md:px-1  h-20 md:h-32 lg:h-20 flex items-center justify-center ">
               Particular and more royalty systems process from franchising partner
             </li>
           </ul>

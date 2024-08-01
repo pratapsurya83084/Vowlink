@@ -424,11 +424,11 @@ const Testimonials = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 900,
+    speed: 1000,
     slidesToShow: 1, // Default
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     prevArrow: null,
     nextArrow: null,
     responsive: [
@@ -503,11 +503,11 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="font-jost px-0 md:px-5 lg:px-40 xl:px-60 2xl:px-80 ">
+    <section className="font-jost px-0 md:px-5 mt-20 lg:px-40 xl:px-60 2xl:px-80 ">
 
       <div className="text-center mt-10   text-white font-bold p- px-4">
         <h2 className="text-2xl sm:text-4xl lg:text-5xl "> Vowlink Hall of Fame</h2> <br />
-       <p className="text-lg"> Our learners can't stop raving. Discover why.</p>
+       {/* <p className="text-lg"> Our buisness can't stop raving. Discover why.</p> */}
       </div>
 
       {/* Testimonials Section */}
@@ -516,9 +516,9 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="p-2">
               <div className="flex justify-center items-center gap-4">
-                <div className="text-center w-60 p-4 flex flex-col justify-center bg-white rounded-lg">
-                  <h1 className="text-xl font-bold mb-5">{testimonial.name}</h1>
-                  <p>{testimonial.text}</p>
+                <div className="text-center w-60 h-80 p-1 md:p-2 xl:p-2  flex flex-col justify-center bg-white rounded-lg">
+                  <h1 className="text- font-bold md:mb-2 xl:mb-7">{testimonial.name}</h1>
+                  <p className="">{testimonial.text}</p>
                 </div>
               </div>
             </div>

@@ -94,10 +94,10 @@
 import React from 'react'
 
 const steps = [
-  { title: "Step 1:  Express Your Interest", description: "Discover the Vowlink opportunity. Submit an inquiry to learn more about our franchise model and how it aligns with your entrepreneurial goals.", color: "bg-yellow-500" },
-  { title: "Step 2: Evaluate Your Fit", description: "We work closely with you to assess your qualifications and determine if you're a good fit for the Vowlink franchise system.", color: "bg-blue-500" },
-  { title: "Step 3:  Formalize Your Partnership", description: "Once we've mutually agreed on the partnership, we'll guide you through the franchise agreement process.", color: "bg-green-500" },
-  { title: "Step 4: Comprehensive Training", description: "Our in-depth training program equips you with the knowledge and skills needed to successfully operate your Vowlink franchise.", color: "bg-red-500" },
+  { title: "Step 1:  Express Your Interest", description: "Discover the Vowlink opportunity. Submit an inquiry to learn more about our franchise model and how it aligns with your entrepreneurial goals.", color: "bg-orange-500" },
+  { title: "Step 2: Evaluate Your Fit", description: "We work closely with you to assess your qualifications and determine if you're a good fit for the Vowlink franchise system.", color: "bg-blue-600" },
+  { title: "Step 3:  Formalize Your Partnership", description: "Once we've mutually agreed on the partnership, we'll guide you through the franchise agreement process.", color: "bg-yellow-500" },
+  { title: "Step 4: Comprehensive Training", description: "Our in-depth training program equips you with the knowledge and skills needed to successfully operate your Vowlink franchise.", color: "bg-violet-500" },
   { title: "Step 5: Launch and Grow", description: "With our ongoing support and marketing assistance, you'll be well-prepared to launch and grow your e-learning business.", color: "bg-purple-500" },
 ];
 const HowworkFranchise = () => {
