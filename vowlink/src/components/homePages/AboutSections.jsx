@@ -13,7 +13,7 @@ const AboutSections = () => {
           <div className="md:flex md:items-center md:justify-center md:space-x-8">
             {/* show small size device */}
             <div className="md:hidden mb-20 ">
-              <h2 className="text-2xl sm:text-4xl  text-center font-bold animate-fadeIn">
+              <h2 className="text-3xl sm:text-4xl  text-center font-bold animate-fadeIn">
                 About Vowlink
               </h2>
             </div>
@@ -21,7 +21,9 @@ const AboutSections = () => {
               <div className="absolute inset-y-0 left-0 w-full transform -translate-x-10 md:w-2/3 dotted-background"></div>
               <div className="relative w-full z-10">
                 <img
-                  src="https://img.freepik.com/free-photo/business-marketing-strategy-plan-operations_53876-13784.jpg?t=st=1722250007~exp=1722253607~hmac=21cc9a327e788ef2b964ba1ab3219bcd1dfce190dcbef9a8bc3a4956fbc631d4&w=740"
+                  // src="https://img.freepik.com/free-photo/business-marketing-strategy-plan-operations_53876-13784.jpg?t=st=1722250007~exp=1722253607~hmac=21cc9a327e788ef2b964ba1ab3219bcd1dfce190dcbef9a8bc3a4956fbc631d4&w=740"
+                 
+                 src="\AboutVL_logo.jpg"
                   alt="Vowlink Learning"
                   className="w-full max-w-lg rounded-lg transform transition-transform duration-700 hover:scale-105 animate-slideInLeft relative"
                 />
@@ -50,7 +52,9 @@ const AboutSections = () => {
 
               {/* button */}
               <div className="flex justify-center ">
-                <button className="bg-orange-500 text-white font-bold px-10 py-3 mt-10 rounded-lg">Starts Now</button>
+                <button className="bg-orange-500 text-lg text-white font-bold px-10 py-3 mt-10 rounded-lg">
+                  Starts Now
+                  </button>
               </div>
               
             </div>

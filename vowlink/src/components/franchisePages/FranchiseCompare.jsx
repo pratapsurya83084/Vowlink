@@ -242,6 +242,10 @@ const FranchiseComparison = () => {
           </ul>
         </div>
       </div>
+      {/* buttons explore now */}
+      <div className='mt-14 mb-14 flex justify-center '>
+        <button className='bg-orange-500 rounded-lg px-12 py-3 text-white text-lg font-bold'>Explore Now</button>
+      </div>
     </div>
   );
 }

@@ -122,13 +122,13 @@ import React from 'react'
 const WhyChoosevl = () => {
   return (
     <div className='text-white'>
-      <h2 className="text-2xl sm:text-4xl lg:text-5xl    pt-10 font-bold text-center mb-5 ">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl    pt-10 font-bold text-center mb-5 ">
          Why Choose VL Academy Franchise?
          </h2>
            <h3 className="text-center p-2  mb-10 text-lg  sm:text-xl">
               As a franchise partner, you'll help shape future leaders 
-              and drive success in the global marketplace. <br />
-               Partner with us to make a lasting impact.
+              and drive success in the global marketplace <br />
+               Partner with us to make a lasting impact
            </h3>
       <div className="text-white flex justify-center">
   
@@ -145,7 +145,9 @@ const WhyChoosevl = () => {
   
       <h3 className="text-2xl font-semibold mb-4">Proven Success Model</h3>
       <p className="text-lg">
-        Track Record of Excellence : Join a franchise with a history of empowering successful entrepreneurs.
+        {/* Track Record of Excellence :  */}
+        Join a franchise with a history of empowering successfull
+         entrepreneurs
       </p>
     </div>
     {/* box2 */}
@@ -160,7 +162,9 @@ const WhyChoosevl = () => {
         Innovative Approach
         </h3>
       <p className="text-lg">
-        "Learn, Earn, and Build Your Business Empire!" : A unique methodology that combines theoretical knowledge with practical application.
+        {/* "Learn, Earn, and Build Your Business Empire!" : */}
+         A unique methodology that combines theoretical
+          knowledge with practical application
       </p>
     </div>
     {/* box3 */}
@@ -173,7 +177,10 @@ const WhyChoosevl = () => {
       </div>
       <h3 className="text-2xl font-semibold mb-4">Support and Training</h3>
       <p className="text-lg">
-        Ongoing Training Programs : Benefit from continuous training to ensure you and your team are always at the forefront of business education.
+        {/* Ongoing Training Programs : */}
+         Benefit from continuous training to ensure
+          you and your team are always at the 
+          forefront of business education
       </p>
     </div>
     {/* box4 */}
@@ -186,7 +193,9 @@ const WhyChoosevl = () => {
       </div>
       <h3 className="text-2xl font-semibold mb-4">High Demand Market</h3>
       <p className="text-lg">
-        Growing Need for Business Education : Tap into the increasing demand for business leaders and entrepreneurs.
+        {/* Growing Need for Business Education : */}
+        
+         Tap into the increasing demand for business leaders and entrepreneurs
       </p>
     </div>
     {/* box5 */}
@@ -199,7 +208,8 @@ const WhyChoosevl = () => {
  </div>
       <h3 className="text-2xl font-semibold mb-4">Brand Recognition</h3>
       <p className="text-lg">
-        Established Brand : Partner with a well-known and respected name in the industry.
+        {/* Established Brand :  */}
+        Partner with a well-known and respected name in the industry
       </p>
     </div>
     {/* box6 */}
@@ -212,7 +222,8 @@ const WhyChoosevl = () => {
  </div>
       <h3 className="text-2xl font-semibold mb-4 whitespace-nowrap">Financial Opportunities</h3>
       <p className="text-lg">
-        Attractive ROI : Enjoy a business model designed to deliver substantial returns on investment.
+        {/* Attractive ROI : */}
+         Enjoy a business model designed to deliver substantial returns on investment
       </p>
     </div>
     {/* box7 */}
@@ -226,7 +237,8 @@ const WhyChoosevl = () => {
  </div>
       <h3 className="text-2xl font-semibold mb-4">Global Reach</h3>
       <p className="text-lg">
-        Expand Your Business Internationally : Leverage our global network to reach learners worldwide.
+        {/* Expand Your Business Internationally : */}
+         Leverage our global network to reach learners worldwide
       </p>
     </div>
     {/* box8 */}
@@ -240,7 +252,8 @@ const WhyChoosevl = () => {
  </div>
       <h3 className="text-2xl font-semibold mb-4">Flexibility and Autonomy</h3>
       <p className="text-lg">
-        Be Your Own Boss : Enjoy the freedom of running your own business with the backing of a successful franchise.
+        {/* Be Your Own Boss :  */}
+        Enjoy the freedom of running your own business with the backing of a successful franchise
       </p>
     </div>
     {/* box9 */}
@@ -256,7 +269,8 @@ const WhyChoosevl = () => {
         Exclusive Access to Resources
         </h3>
       <p className="text-lg">
-        Premium Content Library : Access a vast array of high-quality educational materials and resources.
+        {/* Premium Content Library : */}
+         Access a vast array of high-quality educational materials and resources
       </p>
     </div>
     {/* box10 */}
@@ -271,12 +285,18 @@ const WhyChoosevl = () => {
       <p className="text-lg">
         Join a Community of Entrepreneurs  Be part of  a <br className='hidden md:flex'/>
          network of  like-minded  
-          business owners and entrepreneurs.
+          business owners and entrepreneurs
       </p>
     </div>
+  
+ 
   </div>
+  
 </div>
-
+{/*  */}
+<div className='flex justify-center mt-5'>
+    <button className='bg-orange-500 text-lg px-14 py-3 rounded-lg font-bold'>Get Now</button>
+    </div>
     </div>
   )
 }

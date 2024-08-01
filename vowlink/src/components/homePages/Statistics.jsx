@@ -48,7 +48,7 @@ const Statistics = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           
-          <p className="mt-2 text-2xl sm:text-4xl lg:text-5xl leading-8 font-extrabold tracking-tight text-white ">
+          <p className="mt-2 text-3xl sm:text-4xl lg:text-5xl leading-8 font-extrabold tracking-tight text-white ">
             Our Achievements</p>
         </div>
         <div className="mt-10 sm:mt-20">
@@ -56,8 +56,8 @@ const Statistics = () => {
             {statistics.map((stat, index) => (
                 // bg-white,shadow-lg
               <div key={index} className="  border         transition-transform transform hover:scale-105 shadow-lg  rounded-lg p-6 text-center">
-                <h3 className="text-2xl font-bold text-white">{stat.value}</h3>
-                <p className="mt-2 text-xl font-bold text-white">{stat.title}</p>
+                <h3 className="text-2xl font-bold text-yellow-400">{stat.value}</h3>
+                <p className="mt-2 text-xl font-bold text-yellow-400">{stat.title}</p>
                 <p className="mt-2 text-lg text-white">{stat.description}</p>
               </div>
             ))}
@@ -66,7 +66,10 @@ const Statistics = () => {
       </div>
     {/* button */}
     <div className="flex justify-center pb-10">
-                <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Enroll Now</button>
+                <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">
+                  Enquire Now
+                  
+                  </button>
               </div>
     </section>
   );

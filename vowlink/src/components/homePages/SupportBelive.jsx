@@ -10,7 +10,7 @@ const StudentSupportServices = () => {
   {/* 1th cards */}
         <div className="text-center grid gap-14 md:grid-cols-2 mt-10 sm:mt-20 lg:grid-cols-3">
           <div className="bg-gray-50   font-type         transition-transform transform hover:scale-105 p-2 rounded-lg shadow-lg">
-         <h1 className='text-xl p-1'> 24/7</h1> 
+         <h1 className='text-xl p-1 mt-4'> 24/7</h1> 
           <div className='flex justify-center'>
             <img 
             className='h-14'
@@ -124,7 +124,9 @@ const StudentSupportServices = () => {
       </div>
        {/* button */}
        <div className="flex justify-center pb-10">
-                <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Start Now</button>
+                <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">
+                  Build Now
+                  </button>
               </div>
     </section>
   );

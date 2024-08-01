@@ -7,12 +7,11 @@ const LandingPage = () => {
   return (
    
 
-<section className="font-jost m-5 md:m-20 pb-10 md:pb-0   bg-gradient-to-r from-purple-500 to-indigo-500 rounded-lg shadow-xl body-font bg-transparent relative">
+<section className="font-jost m-6 md:m-20 pb-10 md:pb-0   bg-gradient-to-r from-purple-500 to-indigo-500 rounded-lg shadow-xl body-font bg-transparent relative">
   <div className="container mx-auto flex md:flex-row flex-col lg:gap-24 md:px-1 lg:px-10 py-4  md:py-24  items-center">
   {/* left side text  ,lg:flex-grow*/}
-  <div className=" md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center p-6
-">
-      <div className="title-font text-2xl sm:text-4xl flex-wrap   xl:text-5xl  lg:whitespace-nowrap  mb-4 font-medium text-white animate-fadeIn drop-shadow-lg">
+  <div className=" md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center p-6">
+      <div className="title-font text-3xl sm:text-4xl flex-wrap   xl:text-5xl  lg:whitespace-nowrap  mb-4 font-medium text-white animate-fadeIn drop-shadow-lg">
         {/* Learn, Grow and Thrive  with us! */}
         Learn, Earn, and Build Your  
         <br className='hidden md:flex' />
@@ -31,9 +30,12 @@ const LandingPage = () => {
     </div>
     {/* img right side */}
     <div className="lg:max-w-lg  lg:w-full md:mr-5 md:w-1/2 w-5/6 relative">
-      <div className="relative p-6 bg-purple-500 border border-white bg-opacity-30 rounded-lg shadow-lg">
-        <img className="object-cover object-center rounded border-4 border-purple-500 animate-slideIn" alt="hero"
-          src="/buisness_vowlinkpostter-removebg.png" />
+      <div className="relative p-6  border border-white bg-opacity-30 rounded-lg shadow-lg">
+      {/* border-4 ,border-purple-500*/}
+        <img className="object-cover object-center rounded   animate-slideIn" alt="hero"
+          // src="/buisness_vowlinkpostter-removebg.png"
+          src='\two-young-office-workers-offering-their-hands-handshake.png'
+          />
       </div>
     </div>
   </div>

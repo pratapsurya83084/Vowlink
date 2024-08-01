@@ -23,6 +23,7 @@ const Navbar = () => {
             {/* <span className="sr-only ">vowlink Company</span> */}
             {/* vowlink logo */}
             <img
+            // [120px]
               className="h-24"
               src="\vowlink_logo_header.png"
               alt=""

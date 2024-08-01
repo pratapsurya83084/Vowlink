@@ -286,12 +286,12 @@ const Testimonials = () => {
       {
         breakpoint: 640, // mobile screens
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 2,
         },
       },
       {
-        breakpoint: 768, // small screens
+        breakpoint: 825, // small screens
         settings: {
           slidesToShow: 2, //image 2 show
           slidesToScroll: 2,
@@ -357,50 +357,93 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="font-jost px-0 md:px-5 mt-20 lg:px-40 xl:px-60 2xl:px-80 ">
+    // <section className="font-jost px-0 md:px-5 mt-20 lg:px-40 xl:px-60 2xl:px-80 ">
 
-      <div className="text-center mt-10   text-white font-bold p- px-4">
-        <h2 className="text-2xl sm:text-4xl lg:text-5xl "> Vowlink Hall of Fame</h2> <br />
-       {/* <p className="text-lg"> Our buisness can't stop raving. Discover why.</p> */}
-      </div>
+    //   <div className="text-center mt-10   text-white font-bold p- px-4">
+    //     <h2 className="text-2xl sm:text-4xl lg:text-5xl "> Vowlink Hall of Fame</h2> <br />
+    //    {/* <p className="text-lg"> Our buisness can't stop raving. Discover why.</p> */}
+    //   </div>
 
-      {/* Testimonials Section */}
-      <div className="flex flex-col mt-10 mb-10 lg:mt-20 px-8 md:px-10 justify-center items-center w-full radius-yellow p-4 rounded-3xl bg-custom-brown">
-        <Slider {...settings} className="flex p-2 w-full">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="p-2">
-              <div className="flex justify-center items-center gap-4">
-                <div className="text-center w-60 h-80 p-1 md:p-2 xl:p-2  flex flex-col justify-center bg-white rounded-lg">
-                  <h1 className="text- font-bold md:mb-2 xl:mb-7">{testimonial.name}</h1>
-                  <p className="md:mt-2">{testimonial.text}</p>
-                  {/* add reviews star */}
-                  <div className="flex justify-center mt-4">
-                    <h6>Reviews : </h6>
-                  {[...Array(5)].map((star, i) => (
-                    <svg
-                      key={i}
-                      className={`h-5 w-5 ${i < testimonial.rating ? 'text-yellow-400' : 'text-gray-300'}`}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.518 4.674a1 1 0 00.95.69h4.9c.969 0 1.371 1.24.588 1.81l-3.97 2.884a1 1 0 00-.364 1.118l1.518 4.674c.3.921-.755 1.688-1.54 1.118l-3.97-2.884a1 1 0 00-1.175 0l-3.97 2.884c-.784.57-1.838-.197-1.54-1.118l1.518-4.674a1 1 0 00-.364-1.118L2.441 10.1c-.783-.57-.38-1.81.588-1.81h4.9a1 1 0 00.95-.69L9.049 2.927z" />
-                    </svg>
-                  ))}
-                  </div>
+    //   {/* Testimonials Section */}
+    //   <div className="flex flex-col mt-10 mb-10 lg:mt-20 px-8 md:px-10 justify-center items-center w-full  p-4 rounded-3xl bg-custom-brown">
+    //     <Slider {...settings} className="flex p-2 pb-7 w-full">
+    //       {testimonials.map((testimonial, index) => (
+    //         <div key={index} className="p-2">
+    //           <div className="flex justify-center items-center gap-4">
+    //             <div className="text-center w-60 h-80  px- sm:px-0 md:p-2 xl:p-2  flex flex-col justify-center bg-white rounded-lg">
+    //               <h1 className="text- font-bold md:mb-2 xl:mb-7">{testimonial.name}</h1>
+    //               <p className="md:mt-2">{testimonial.text}</p>
+    //               {/* add reviews star */}
+    //               <div className="flex justify-center mt-4 pb-4">
+    //                 <h6 className="text-sm">Reviews:  </h6>
+    //               {[...Array(5)].map((star, i) => (
+    //                 <svg
+    //                   key={i}
+    //                   className={`h-5 w-5 ${i < testimonial.rating ? 'text-yellow-400' : 'text-gray-300'}`}
+    //                   xmlns="http://www.w3.org/2000/svg"
+    //                   viewBox="0 0 20 20"
+    //                   fill="currentColor"
+    //                 >
+    //                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.518 4.674a1 1 0 00.95.69h4.9c.969 0 1.371 1.24.588 1.81l-3.97 2.884a1 1 0 00-.364 1.118l1.518 4.674c.3.921-.755 1.688-1.54 1.118l-3.97-2.884a1 1 0 00-1.175 0l-3.97 2.884c-.784.57-1.838-.197-1.54-1.118l1.518-4.674a1 1 0 00-.364-1.118L2.441 10.1c-.783-.57-.38-1.81.588-1.81h4.9a1 1 0 00.95-.69L9.049 2.927z" />
+    //                 </svg>
+    //               ))}
+    //               </div>
                   
-                </div>
+    //             </div>
+    //           </div>
+    //         </div>
+    //       ))}
+    //     </Slider>
+    //   </div>
+      
+    //    {/* button */}
+    //    <div className="flex justify-center pb-10">
+    //             <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Start Now</button>
+    //           </div>
+    // </section>
+
+    <section className="font-jost px-0 md:px-5 mt-20 lg:px-40 xl:px-60 2xl:px-80">
+  <div className="text-center mt-10 text-white font-bold px-4">
+    <h2 className="text-3xl sm:text-4xl lg:text-5xl">Vowlink Hall of Fame</h2>
+  </div>
+
+  {/* Testimonials Section */}
+  <div className="flex flex-col mt-10 mb-10 lg:mt-20 px-8 md:px-10 justify-center items-center w-full p-4 rounded-3xl bg-custom-brown">
+    <Slider {...settings} className="flex p-2 pb-7 w-full">
+      {testimonials.map((testimonial, index) => (
+        <div key={index} className="p-2">
+          <div className="flex justify-center items-center gap-4">
+            <div className="text-center w-72 h-80 px-4 md:px-2 xl:px-2 flex flex-col justify-center bg-white rounded-lg">
+              <h1 className="text- font-bold md:mb-2 xl:mb-7">{testimonial.name}</h1>
+              <p className="md:mt-2">{testimonial.text}</p>
+              {/* add reviews star */}
+              <div className="flex justify-center mt-4 pb-4">
+                <h6 className="text-sm">Reviews : </h6>
+                {[...Array(5)].map((star, i) => (
+                  <svg
+                    key={i}
+                    className={`h-5 w-5 ${i < testimonial.rating ? 'text-yellow-400' : 'text-gray-300'}`}
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.518 4.674a1 1 0 00.95.69h4.9c.969 0 1.371 1.24.588 1.81l-3.97 2.884a1 1 0 00-.364 1.118l1.518 4.674c.3.921-.755 1.688-1.54 1.118l-3.97-2.884a1 1 0 00-1.175 0l-3.97 2.884c-.784.57-1.838-.197-1.54-1.118l1.518-4.674a1 1 0 00-.364-1.118L2.441 10.1c-.783-.57-.38-1.81.588-1.81h4.9a1 1 0 00.95-.69L9.049 2.927z" />
+                  </svg>
+                ))}
               </div>
             </div>
-          ))}
-        </Slider>
-      </div>
-      
-       {/* button */}
-       <div className="flex justify-center pb-10">
-                <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Start Now</button>
-              </div>
-    </section>
+          </div>
+        </div>
+      ))}
+    </Slider>
+  </div>
+  
+  {/* Button */}
+  <div className="flex justify-center pb-10">
+    <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Start Now</button>
+  </div>
+</section>
+
   );
 };
 

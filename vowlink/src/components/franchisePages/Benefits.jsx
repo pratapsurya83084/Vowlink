@@ -15,7 +15,9 @@ const Benefit = ({ icon, title, description }) => (
 const Benefits = () => (
   <section className="font-jost  bg-gray-50 py-16">
     <div className="container mx-auto px-6">
-      <h2 className="text-2xl sm:text-4xl lg:text-5xl  font-bold text-center text-gray-900 mb-12">Franchise Benefits</h2>
+      <h2 className="text-3xl  sm:text-4xl lg:text-5xl  font-bold text-center text-gray-900 mb-12">
+        Franchise Benefits
+        </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
         <Benefit
           icon="\mount_8007400.png"
@@ -60,6 +62,12 @@ const Benefits = () => (
           title="Exclusive Access to Resources"
           description="Gain access to exclusive educational materials, resources, and tools. Stay informed with the latest trends and insights from the business education sector."
         />
+      </div>
+        {/* buttons explore now */}
+        <div className='mt-14 mb-10 flex justify-center '>
+        <button className='bg-orange-500 rounded-lg px-12 py-3 text-white text-lg font-bold'>
+            Connect Now
+          </button>
       </div>
     </div>
   </section>
