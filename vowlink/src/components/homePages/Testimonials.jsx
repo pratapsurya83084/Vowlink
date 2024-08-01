@@ -250,162 +250,6 @@
 
 
 
-// 2nd
-
-// import React from "react";
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-
-// const Testimonials = () => {
-//   const settings = {
-//     dots: true,
-//     infinite: true,
-//     speed: 900,
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 3000,
-//     prevArrow: null, // No previous arrow
-//     nextArrow: null, // No next arrow
-//   };
-
-//   return (
-//     <section className="px-0 font-type">
-//       <h1 className=" text-center  mt-10 rounded-tl-xl rounded-tr-xl text-white font-bold  p-1 px-4">
-//         <h2 className="text-2xl md:text-5xl">The Vowlink Hall of Fame</h2> <br />
-//      <h2 className="text-xl"> Our learners can't stop raving. Discover why.</h2>  
-//       </h1>
-
-//       {/* 3 slides  */}
-//       <div className="flex  image-carousel-section mt-60 mb-60 lg:mt-20    px-8 md:px-20 justify-center items-center w-full radius-yellow p-4 h-32 sm:h-32 md:h-36 lg:h-36 xl:h-36 2xl:h-40 rounded-3xl bg-custom-brown">
-//         <Slider {...settings} className="flex p-2 w-full">
-//           {/* First slide */}
-//           <div className=" p-2">
-//             <div className="flex justify-center items-center gap-4">
-//               <div className="flex text-center  w-60 p-4  flex-col justify-center bg-white rounded-lg p-">
-//                 <h1 className="text-xl font-bold mb-5">Sophie Carter</h1>
-//                 <p className="">
-//                   "Vowlink has been a game-changer for me. 
-//                    The specialized  business curriculum 
-//                     gave me the confidence to start my own 
-//                   venture, and the hands-on projects made all 
-//                    the difference.
-//                   Highly recommend!" .
-//                 </p>
-//               </div>
-//               <div className="text-center  w-60 p-4 flex flex-col  justify-center bg-white rounded-lg ">
-//                 <h1 className="text-xl font-bold mb-5"> Raj Patel</h1>
-//                 <p>
-//                   "The quality of education at Vowlink is top-notch. The expert
-//                   mentors provided invaluable insights, and the flexible
-//                   learning options were perfect for balancing my work and
-//                   studies. A great investment in my future!"
-//                 </p>
-//               </div>
-//               <div className="text-center  w-60  flex flex-col   justify-center bg-white rounded-lg p-4">
-//                 <h1 className="text-xl font-bold mb-5"> Emily Johnson</h1>
-//                 <p>
-//                   "Vowlink's innovative courses are exactly what I needed to
-//                   take my business ideas to the next level. The practical
-//                   approach and networking opportunities have opened new doors
-//                   for me."
-//                 </p>
-//               </div>
-//             </div>
-//           </div>
-
-//           {/* Second slide */}
-//           <div className="p-2">
-//             <div className="flex justify-center items-center gap-4">
-//               <div className="text-center  w-60 flex flex-col   justify-center bg-white rounded-lg p-4">
-//                 <h1 className="text-xl font-bold mb-5">Carlos Mendoza</h1>
-//                 <p>
-//                   "I was impressed by the breadth of topics covered and the
-//                   real-world applications of the lessons. Vowlink’s curriculum
-//                   is comprehensive and relevant, making it easy to apply what I
-//                   learned immediately."
-//                 </p>
-//               </div>
-
-//               <div className="flex flex-col text-center  w-60  justify-center  bg-white rounded-lg p-4">
-//                 <h1 className="text-xl font-bold mb-5">Aisha Ahmed</h1>
-//                 <p>
-//                   "Joining Vowlink was one of the best decisions I've made. The
-//                   community is supportive, the mentors are experienced, and the
-//                   flexibility of the courses allowed me to learn at my own pace
-//                   while working full-time."
-//                 </p>
-//               </div>
-
-//               <div className="text-center  w-60 flex flex-col   justify-center bg-white rounded-lg p-4">
-//                 <h1 className="text-xl font-bold mb-5">Michael Lee</h1>
-//                 <p>
-//                   "Vowlink offers an exceptional learning experience with its
-//                   top-tier global business education. The ability to work on
-//                   real business scenarios and the access to industry experts
-//                   have been incredibly valuable."
-//                 </p>
-//               </div>
-
-//             </div>
-//           </div>
-
-//           {/* Third slide */}
-//           <div className="p-2">
-//             <div className="flex justify-center items-center gap-4">
-             
-//               <div className="flex text-center  w-60   flex-col  justify-center bg-white rounded-lg p-4">
-//                 <h1 className="text-xl font-bold mb-5">Priya Sharma</h1>
-//                 <p>
-//                   "The hands-on learning approach at Vowlink really sets it
-//                   apart. I’ve been able to directly apply the concepts to my own
-//                   projects, and the networking opportunities have been fantastic
-//                   for my career growth."
-//                 </p>
-//               </div>
-
-//               <div className="text-center  w-60 flex flex-col   justify-center bg-white rounded-lg p-4">
-//                 <h1 className="text-xl font-bold mb-5"> John Roberts</h1>
-//                 <p>
-//                   "I’ve taken several online courses, but Vowlink stands out for
-//                   its practical approach and expert instructors. The flexible
-//                   options allowed me to tailor my learning experience to fit my
-//                   busy schedule."
-//                 </p>
-//               </div>
-
-//               <div
-//                 className="text-center  w-60 flex flex-col 
-//                justify-center bg-white rounded-lg p-4"
-//               >
-//                 <h1 className="text-xl font-bold mb-5"> Lena Thompson </h1>
-//                 <p>
-//                   "Vowlink has provided me with the tools and knowledge needed
-//                   to start earning while learning. The innovative courses and
-//                   supportive community have been instrumental in my
-//                   entrepreneurial journey."
-//                 </p>
-               
-//               </div>
-
-//             </div>
-//           </div>
-//         </Slider>
-//       </div>
-
-      
-//     </section>
-//   );
-// };
-
-// export default Testimonials;
-
-
-
-
-
-
 
 
 
@@ -467,38 +311,48 @@ const Testimonials = () => {
   const testimonials = [
     // 1st
     { name: "Rahul Mehta, Franchise Owner, India", 
-      text: "Partnering with VL Academy has been a transformative experience. Their franchise model and support have been key to our success." },
+      text: "Partnering with VL Academy has been a transformative experience. Their franchise model and support have been key to our success.",
+      rating: 4
+     },
     //2nd
       { name: "Sarah Thompson, Franchisee, UK",
-         text: "The VL Academy franchise has provided exceptional value. Their comprehensive training and resources helped us establish a thriving business."
- },
+         text: "The VL Academy franchise has provided exceptional value. Their comprehensive training and resources helped us establish a thriving business.",
+         rating: 5
+              },
     //3rd
       { name: "Priya Patel, Franchise Owner, India", 
         text:  "Becoming a VL Academy franchisee has greatly enhanced our business operations. Their innovative approach and support are unmatched."
-      },
+     ,  rating: 4 },
     // 4rth
     { name: "James Collins, Franchise Partner, UK",
-       text:  "As a VL Academy franchisee, I've benefited from their cutting-edge educational tools and robust business model. It’s a rewarding partnership." },
+       text:  "As a VL Academy franchisee, I've benefited from their cutting-edge educational tools and robust business model. It’s a rewarding partnership." ,
+       rating: 4.7
+      },
 //  5th
     { name: "Alicia Wong, Franchisee, Singapore",
-       text:   "VL Academy's franchise program has been outstanding. Their expert-designed courses and marketing support have driven our success." },
+       text:   "VL Academy's franchise program has been outstanding. Their expert-designed courses and marketing support have driven our success." ,
+       rating: 4.1  },
    //6th 
     { name: "Kenji Tanaka, Franchise Owner, Tokyo",
        text: 
-       "The VL Academy franchise has provided invaluable resources and support, enabling us to excel in the competitive Tokyo market."
+       "The VL Academy franchise has provided invaluable resources and support, enabling us to excel in the competitive Tokyo market.",
+       rating: 3.2
     },
     //7th
        { name: "Samantha Lee, Franchise Partner, Singapore",
          text:
-         "Joining VL Academy as a franchisee has been a fantastic decision. Their proven methods and comprehensive support have helped our business thrive."
+         "Joining VL Academy as a franchisee has been a fantastic decision. Their proven methods and comprehensive support have helped our business thrive.",
+         rating: 4
       },
       // 8th
     { name: "Haruki Nakamura, Franchisee, Tokyo", 
-      text:    "VL Academy’s franchise opportunity has empowered us with the tools and knowledge needed to succeed in the competitive business landscape."
+      text:    "VL Academy’s franchise opportunity has empowered us with the tools and knowledge needed to succeed in the competitive business landscape.",
+      rating: 3
     },
     // 9th
     { name: "Vikram Singh, Franchise Owner, India",
-       text:   "Partnering with VL Academy has significantly boosted our business. Their franchise model is effective and their support is exceptional."
+       text:   "Partnering with VL Academy has significantly boosted our business. Their franchise model is effective and their support is exceptional.",
+       rating: 4.3
       },
   ];
 
@@ -511,20 +365,37 @@ const Testimonials = () => {
       </div>
 
       {/* Testimonials Section */}
-      <div className="flex flex-col mt-10 mb-10 lg:mt-20 px-8 md:px-20 justify-center items-center w-full radius-yellow p-4 rounded-3xl bg-custom-brown">
+      <div className="flex flex-col mt-10 mb-10 lg:mt-20 px-8 md:px-10 justify-center items-center w-full radius-yellow p-4 rounded-3xl bg-custom-brown">
         <Slider {...settings} className="flex p-2 w-full">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="p-2">
               <div className="flex justify-center items-center gap-4">
                 <div className="text-center w-60 h-80 p-1 md:p-2 xl:p-2  flex flex-col justify-center bg-white rounded-lg">
                   <h1 className="text- font-bold md:mb-2 xl:mb-7">{testimonial.name}</h1>
-                  <p className="">{testimonial.text}</p>
+                  <p className="md:mt-2">{testimonial.text}</p>
+                  {/* add reviews star */}
+                  <div className="flex justify-center mt-4">
+                    <h6>Reviews : </h6>
+                  {[...Array(5)].map((star, i) => (
+                    <svg
+                      key={i}
+                      className={`h-5 w-5 ${i < testimonial.rating ? 'text-yellow-400' : 'text-gray-300'}`}
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.518 4.674a1 1 0 00.95.69h4.9c.969 0 1.371 1.24.588 1.81l-3.97 2.884a1 1 0 00-.364 1.118l1.518 4.674c.3.921-.755 1.688-1.54 1.118l-3.97-2.884a1 1 0 00-1.175 0l-3.97 2.884c-.784.57-1.838-.197-1.54-1.118l1.518-4.674a1 1 0 00-.364-1.118L2.441 10.1c-.783-.57-.38-1.81.588-1.81h4.9a1 1 0 00.95-.69L9.049 2.927z" />
+                    </svg>
+                  ))}
+                  </div>
+                  
                 </div>
               </div>
             </div>
           ))}
         </Slider>
       </div>
+      
        {/* button */}
        <div className="flex justify-center pb-10">
                 <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Start Now</button>

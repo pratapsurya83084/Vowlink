@@ -19,7 +19,7 @@ const OpportunitySection = () => {
 
         {/* Text section */}
          {/* Point 1 */}
-         <div className="text-black  mt-10 md:mt-20 text-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
+         <div className="text-black  mt-10 md:mt-12 mb-12 text-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
       {/* Point 1 */}
       <div className="bg-white  transition-transform transform hover:scale-105 p-2 rounded-lg shadow-lg">
        <div className="flex justify-center">
@@ -52,7 +52,7 @@ const OpportunitySection = () => {
       </div>
 
       {/* Point 4 */}
-      <div className="bg-white p-2  transition-transform transform hover:scale-105 h-52  rounded-lg shadow-lg">
+      <div className="bg-white p-2   transition-transform transform hover:scale-105 h-52  rounded-lg shadow-lg">
   
       <div className="flex justify-center">
         <img className="h-14"

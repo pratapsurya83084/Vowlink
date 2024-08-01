@@ -90,7 +90,7 @@ const Footer = () => {
 
                   <img
                     className="h-32 w-"
-                    src="\public\vowlink_logo_header.png"
+                    src="\vowlink_logo_header.png"
                     alt=""
                   />
                 </Link>
@@ -1125,13 +1125,13 @@ const Footer = () => {
                 className="h- w-[200px] mb-4 sm:mb-0"
               />
             </a>
-            <div className="flex flex-1 sm:mt-16 mb-10">
+            <div className="flex flex-1 sm:mt-10 mb-10">
               <Link to="/" className=" ">
                 {/* <span className="sr-only ">vowlink Company</span> */}
 
                 <img
-                  className="h-24 w-48"
-                  src="\public\vowlink_logo_header.png"
+                  className="h-32 w-"
+                  src="\vowlink_logo_header.png"
                   alt=""
                 />
               </Link>

@@ -20,7 +20,8 @@ const StudentSupportServices = () => {
             Comprehensive Assistance
               </h3>
             <p className="text-gray-700 text-lg">
-            24/7 Support : Offering round-the-clock support to address any student inquiries or issues promptly.
+            24/7 Support 
+            {/* : Offering round-the-clock support to address any student inquiries or issues promptly. */}
             </p>
           </div>
 {/* 2th cards */}
@@ -35,10 +36,11 @@ const StudentSupportServices = () => {
            Personalized Guidance
             </h3>
             <p className="text-gray-700 text-lg">
-            Over 5,000 One-on-One Sessions :
+            Over 5,000 One-on-One Sessions 
+            {/* :
              Conducted personalized guidance sessions 
              to help students navigate their academic and
-              career paths effectively.
+              career paths effectively. */}
 
             </p>
           </div>
@@ -54,7 +56,8 @@ const StudentSupportServices = () => {
             Resource Accessibility
               </h3>
             <p className="text-gray-700 text-lg">
-            Access to 200+ Learning Materials : Providing students with an extensive library of resources, including textbooks, videos, and interactive tools.
+            Access to 200+ Learning Materials
+             {/* : Providing students with an extensive library of resources, including textbooks, videos, and interactive tools. */}
             </p>
           </div>
 {/* 4th cards */}
@@ -69,9 +72,10 @@ const StudentSupportServices = () => {
             Career Counseling
               </h3>
             <p className="text-gray-700 text-lg">
-            1,000+ Career Counseling Sessions :
-             Delivered career counseling to over 1,000 students,
-              helping them make informed career choices and plans.
+            1,000+ Career Counseling Sessions
+             
+             {/* : Delivered career counseling to over 1,000 students,
+              helping them make informed career choices and plans. */}
 
             </p>
           </div>
@@ -87,10 +91,11 @@ const StudentSupportServices = () => {
             Technical Support
               </h3>
             <p className="text-gray-700 text-lg">
-            98% Resolution Rate : 
-            Achieved a 98% resolution rate
+            98% Resolution Rate 
+            
+            {/* : Achieved a 98% resolution rate
              for technical issues, ensuring
-              students have a smooth learning experience.
+              students have a smooth learning experience. */}
 
             </p>
           </div>
@@ -107,10 +112,11 @@ const StudentSupportServices = () => {
             Feedback and Improvement
               </h3>
             <p className="text-gray-700 text-lg">
-            300+ Feedback Initiatives :
-             Implemented over 300 feedback initiatives
+            300+ Feedback Initiatives
+             
+             {/* : Implemented over 300 feedback initiatives
               to continuously improve our services based
-               on student input.
+               on student input. */}
 
             </p>
           </div>
