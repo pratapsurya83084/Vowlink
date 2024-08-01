@@ -12,7 +12,7 @@ import Twobuttons  from '../homePages/Twobuttons'
 
 import Statistics  from  '../homePages/Statistics'
 import Enroll from '../homePages/Enroll'
-import StudentSupportServices  from '../homePages/StudentSupportServices'
+import SupportBelive  from '../homePages/SupportBelive'
 import EventAcademy  from '../homePages/EventAcademy'
 // import HeadingTestimonial   from '../homePages/HeadingTestimonial'
 const Home = () => {
@@ -26,7 +26,7 @@ const Home = () => {
        
         <Testimonials/>
         <Statistics/>
-        <StudentSupportServices/>
+        <SupportBelive/>
         
         <Enroll/>
        

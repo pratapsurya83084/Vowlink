@@ -24,7 +24,7 @@ const Navbar = () => {
             {/* vowlink logo */}
             <img
               className="h-24"
-              src="\public\vowlink_logo_header.png"
+              src="\vowlink_logo_header.png"
               alt=""
             />
           </Link>

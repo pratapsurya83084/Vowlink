@@ -9,9 +9,13 @@ const StudentSupportServices = () => {
       
   {/* 1th cards */}
         <div className="text-center grid gap-14 md:grid-cols-2 mt-10 sm:mt-20 lg:grid-cols-3">
-          <div className="bg-gray-100   font-type         transition-transform transform hover:scale-105 p-2 rounded-lg shadow-lg">
+          <div className="bg-gray-50   font-type         transition-transform transform hover:scale-105 p-2 rounded-lg shadow-lg">
          <h1 className='text-xl p-1'> 24/7</h1> 
-          add icon
+          <div className='flex justify-center'>
+            <img 
+            className='h-14'
+            src="https://cdn-icons-png.freepik.com/512/2530/2530668.png?ga=GA1.1.1066618313.1718467903" alt="" />
+          </div>
             <h3 className="text-xl font-semibold mb-4">
             Comprehensive Assistance
               </h3>
@@ -20,9 +24,13 @@ const StudentSupportServices = () => {
             </p>
           </div>
 {/* 2th cards */}
-          <div className="bg-blue-100      font-type      transition-transform transform hover:scale-105 p-6 rounded-lg shadow-lg">
+          <div className="bg-gray-50      font-type      transition-transform transform hover:scale-105 p-6 rounded-lg shadow-lg">
           <h1 className='text-xl p-1'>5,000</h1> 
-          add icon
+          <div className='flex justify-center'>
+            <img 
+            className='h-14'
+            src="https://cdn-icons-png.freepik.com/512/7806/7806569.png?ga=GA1.1.1066618313.1718467903" alt="" />
+          </div>
             <h3 className="text-xl font-semibold mb-4">
            Personalized Guidance
             </h3>
@@ -35,9 +43,13 @@ const StudentSupportServices = () => {
             </p>
           </div>
 {/* 3th cards */}
-          <div className="bg-green-100 p-6   font-type         transition-transform transform hover:scale-105 rounded-lg shadow-lg">
+          <div className="bg-gray-50 p-6   font-type         transition-transform transform hover:scale-105 rounded-lg shadow-lg">
           <h1 className='text-xl p-1'> 200+</h1> 
-          add icon
+          <div className='flex justify-center'>
+            <img 
+            className='h-14'
+            src="https://cdn-icons-png.freepik.com/512/4436/4436612.png?ga=GA1.1.1066618313.1718467903" alt="" />
+          </div>
             <h3 className="text-xl font-semibold mb-4">
             Resource Accessibility
               </h3>
@@ -46,9 +58,13 @@ const StudentSupportServices = () => {
             </p>
           </div>
 {/* 4th cards */}
-          <div className="bg-yellow-100    font-type        transition-transform transform hover:scale-105 p-6 rounded-lg shadow-lg">
+          <div className="bg-gray-50    font-type        transition-transform transform hover:scale-105 p-6 rounded-lg shadow-lg">
           <h1 className='text-xl p-1'> 1,000+</h1> 
-          add icon
+          <div className='flex justify-center'>
+            <img 
+            className='h-14'
+            src="https://cdn-icons-png.freepik.com/512/8573/8573576.png?ga=GA1.1.1066618313.1718467903" alt="" />
+          </div>
             <h3 className="text-xl font-semibold mb-4">
             Career Counseling
               </h3>
@@ -60,9 +76,13 @@ const StudentSupportServices = () => {
             </p>
           </div>
 {/* 5th cards */}
-          <div className="bg-pink-100    font-type        transition-transform transform hover:scale-105 p-6  rounded-lg shadow-lg">
+          <div className="bg-gray-50    font-type        transition-transform transform hover:scale-105 p-6  rounded-lg shadow-lg">
           <h1 className='text-xl p-1'>98%</h1> 
-          add icon
+          <div className='flex justify-center'>
+            <img 
+            className='h-14'
+            src="https://cdn-icons-png.freepik.com/512/14221/14221706.png?ga=GA1.1.1066618313.1718467903" alt="" />
+          </div>
             <h3 className="text-xl font-semibold mb-4">
             Technical Support
               </h3>
@@ -76,9 +96,13 @@ const StudentSupportServices = () => {
           </div>
 
 {/* 6th cards */}
-          <div className="bg-purple-100   font-type         transition-transform transform hover:scale-105 p-6 rounded-lg shadow-lg">
+          <div className="bg-gray-50   font-type         transition-transform transform hover:scale-105 p-6 rounded-lg shadow-lg">
           <h1 className='text-xl p-1'> 300+ </h1> 
-          add icon
+          <div className='flex justify-center'>
+            <img 
+            className='h-14'
+            src="https://cdn-icons-png.freepik.com/512/7728/7728581.png?ga=GA1.1.1066618313.1718467903" alt="" />
+          </div>
             <h3 className="text-xl font-semibold mb-4">
             Feedback and Improvement
               </h3>
