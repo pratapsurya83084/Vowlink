@@ -413,9 +413,9 @@ const Testimonials = () => {
       {testimonials.map((testimonial, index) => (
         <div key={index} className="p-2">
           <div className="flex justify-center items-center gap-4">
-            <div className="text-center w-72 h-80 px-4 md:px-2 xl:px-2 flex flex-col justify-center bg-white rounded-lg">
-              <h1 className="text- font-bold md:mb-2 xl:mb-7">{testimonial.name}</h1>
-              <p className="md:mt-2">{testimonial.text}</p>
+            <div className="text-center w-72 h-80 px-4 md:px-1 xl:px-2 flex flex-col justify-center bg-white rounded-lg">
+              <h1 className="text- font-bold mb-10 md:mb-2 xl:mb-7">{testimonial.name}</h1>
+              <p className="mt- md:mt-2">{testimonial.text}</p>
               {/* add reviews star */}
               <div className="flex justify-center mt-4 pb-4">
                 <h6 className="text-sm">Reviews : </h6>

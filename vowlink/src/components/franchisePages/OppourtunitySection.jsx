@@ -61,7 +61,15 @@ const OpportunitySection = () => {
         <h2 className="text-2xl font-semibold mb-2 mt-4">Adaptive  Support</h2>
         <p className="text-lg">Flexible support systems for a resilient and dynamic learning experience.</p>
       </div>
+      
     </div>
+
+      {/* buttons explore now */}
+      <div className='mt-14 mb-10 flex justify-center '>
+        <button className='bg-orange-500 rounded-lg px-12 py-3 text-white text-lg font-bold'>
+            Get Now
+          </button>
+      </div>
     </div>
   );
 };

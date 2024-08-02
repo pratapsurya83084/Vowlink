@@ -9,9 +9,12 @@ const Footer = () => {
   const [isLinksOpen, setIsLinksOpen] = useState(false);
   const [isLegalOpen, setIsLegalOpen] = useState(false);
 
-  // const toggleAnswer = () => {
-  //   setIsOpen(!isOpen);
-  // };
+ 
+
+const currentDate=new Date();
+const currentYear = currentDate.getFullYear();
+console.log(currentYear,currentDate);
+
 
   const showBox = () => {
     setopen(!isopen);
@@ -614,7 +617,7 @@ const Footer = () => {
             <h1>CIN: U80904TR2021PTC013885</h1> <br />
             <h1>ISO:9001:2015, Certificate Number: 21IQGQ82</h1> <br />
             <p className="mt-10">
-              All Rights Reserved | Copyright © BISJHINTUS | 2024
+              All Rights Reserved | Copyright © BISJHINTUS | {currentYear}
             </p>
           </div>
 
