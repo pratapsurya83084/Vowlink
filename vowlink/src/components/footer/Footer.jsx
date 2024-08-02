@@ -609,7 +609,7 @@ const Footer = () => {
       <div className="hidden lg:flex justify-center">
         <div className="flex justify-center items-center space-x-12 max-w-6xl w-full">
           {/* contact info */}
-          <div className="text-left mr- text-lg font-semibold w-1/3">
+          <div className="text-left mr- mb-40 text-lg font-semibold w-1/3">
             <h1>M/s BISJHINTUS PRIVATE LIMITED</h1> <br />
             <h1>CIN: U80904TR2021PTC013885</h1> <br />
             <h1>ISO:9001:2015, Certificate Number: 21IQGQ82</h1> <br />

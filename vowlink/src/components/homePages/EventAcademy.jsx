@@ -99,34 +99,34 @@ const EventAcademy = () => {
     {
       title: "Exciting New Courses",
       description: "Explore our latest offerings designed to keep pace with industry trends and equip you with cutting-edge skills.",
-      imageUrl: "https://franchising.bisjhintus.com/img/COMPANY%20ATMOSPHERE.png",
+      imageUrl: "https://img.freepik.com/free-photo/joyful-young-pretty-female-office-worker-sitting-desk-with-office-tools-points-camera-isolated-orange-background_141793-62992.jpg?t=st=1722593386~exp=1722596986~hmac=37706289491fb9c655ba95340848cd1852d86770fa435d0818d8ea45d55741e9&w=2000",
     },
     {
       title: "Upcoming Events",
       description: "Be the first to know about our upcoming workshops, webinars, and seminars featuring industry experts and thought leaders.",
-      imageUrl: "https://franchising.bisjhintus.com/img/OFFLINE%20OFFICE.png",
+      imageUrl: "https://img.freepik.com/premium-photo/light-pink-background-light-blue-pencils-paper-clips-white-notebook-with-text-upcoming-events_380694-5471.jpg?w=740",
     },
     {
       title: "Success Stories",
       description: "Discover how our students and franchise partners are achieving remarkable success and transforming their futures.",
-      imageUrl: "https://franchising.bisjhintus.com/img/ONLINE%20CLASS.png",
+      imageUrl: "https://img.freepik.com/premium-photo/yellow-background-white-blue-crumpled-pieces-paper-notebook-with-text-success-stories_380694-8532.jpg?w=740",
     },
 
     // next 3 image
     {
       title: "Innovative Tools",
       description: "Get updates on the newest tools and technologies we're integrating to enhance your learning experience.",
-      imageUrl: "https://franchising.bisjhintus.com/img/GIRL%20VIRTUAL.png",
+      imageUrl: "https://img.freepik.com/premium-photo/light-bulb-with-gears-idea-generation-concept-generative-ai_169016-31486.jpg?w=740",
     },
     {
       title: "Community Highlights",
       description: "See how our vibrant community is making an impact, from student achievements to franchisee milestones.",
-      imageUrl: "https://franchising.bisjhintus.com/img/SALE.png",
+      imageUrl: "https://img.freepik.com/free-photo/teen-friends-studying-cafe_23-2147860727.jpg?t=st=1722594090~exp=1722597690~hmac=0ecdce08ff4491eb8c3ebf14c58983248e50f3f3b6bb6be0a37e539562a7d970&w=740",
     },
     {
       title: "Exclusive Offers",
       description: "Stay tuned for special promotions, discounts, and opportunities to join our growing network of successful franchise partners.",
-      imageUrl: "https://franchising.bisjhintus.com/img/INTERNSHIP.png",
+      imageUrl: "https://img.freepik.com/premium-photo/black-friday-best-seller_1158368-287.jpg?w=740",
     },
   
   ];
