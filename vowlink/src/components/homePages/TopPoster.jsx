@@ -30,7 +30,7 @@ const LandingPage = () => {
     </div>
     {/* img right side */}
     <div className="lg:max-w-lg  lg:w-full md:mr-5 md:w-1/2 w-5/6 relative">
-      <div className="relative p-6  border border-white bg-opacity-30 rounded-lg shadow-lg">
+      <div className="relative p-  border border-white bg-opacity-30 rounded-lg shadow-lg">
       {/* border-4 ,border-purple-500*/}
         <img className="object-cover object-center rounded   animate-slideIn" alt="hero"
           // src="/buisness_vowlinkpostter-removebg.png"

@@ -14,7 +14,7 @@ const StudentSupportServices = () => {
           <div className='flex justify-center'>
             <img 
             className='h-14'
-            src="https://cdn-icons-png.freepik.com/512/2530/2530668.png?ga=GA1.1.1066618313.1718467903" alt="" />
+            src="\comprehensive_assistence.png" alt="" />
           </div>
             <h3 className="text-xl font-semibold mb-4">
             Comprehensive Assistance
@@ -30,7 +30,7 @@ const StudentSupportServices = () => {
           <div className='flex justify-center'>
             <img 
             className='h-14'
-            src="https://cdn-icons-png.freepik.com/512/7806/7806569.png?ga=GA1.1.1066618313.1718467903" alt="" />
+            src="\personalised_guidence.png" alt="" />
           </div>
             <h3 className="text-xl font-semibold mb-4">
            Personalized Guidance
@@ -50,7 +50,7 @@ const StudentSupportServices = () => {
           <div className='flex justify-center'>
             <img 
             className='h-14'
-            src="https://cdn-icons-png.freepik.com/512/4436/4436612.png?ga=GA1.1.1066618313.1718467903" alt="" />
+            src="\resource_accessiblity.png" alt="" />
           </div>
             <h3 className="text-xl font-semibold mb-4">
             Resource Accessibility
@@ -66,7 +66,7 @@ const StudentSupportServices = () => {
           <div className='flex justify-center'>
             <img 
             className='h-14'
-            src="https://cdn-icons-png.freepik.com/512/8573/8573576.png?ga=GA1.1.1066618313.1718467903" alt="" />
+            src="\career_counselling.png" alt="" />
           </div>
             <h3 className="text-xl font-semibold mb-4">
             Career Counseling
@@ -85,7 +85,7 @@ const StudentSupportServices = () => {
           <div className='flex justify-center'>
             <img 
             className='h-14'
-            src="https://cdn-icons-png.freepik.com/512/14221/14221706.png?ga=GA1.1.1066618313.1718467903" alt="" />
+            src="\techhnical_support.png" alt="" />
           </div>
             <h3 className="text-xl font-semibold mb-4">
             Technical Support
@@ -106,7 +106,7 @@ const StudentSupportServices = () => {
           <div className='flex justify-center'>
             <img 
             className='h-14'
-            src="https://cdn-icons-png.freepik.com/512/7728/7728581.png?ga=GA1.1.1066618313.1718467903" alt="" />
+            src="\feedback_improvement.png" alt="" />
           </div>
             <h3 className="text-xl font-semibold mb-4">
             Feedback and Improvement
