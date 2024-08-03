@@ -50,7 +50,8 @@ const EnrollmentAndAdmissions = () => {
           <div className="lg:w-1/2 flex justify-center items-center  bg-[#683695] border-2 border-white p- rounded-2xl">
             <img
               className="w-full h-full max-h-[600px] object-cover rounded-lg"
-              src="/vllogo_joinvl.png"
+              // src="/vllogo_joinvl.png"
+              src="\joinVL_enroll_logo.jpg"
               alt="Enrollment"
             />
           </div>
