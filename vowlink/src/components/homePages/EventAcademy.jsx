@@ -16,14 +16,14 @@ const EventAcademy = () => {
     {
       title: "Success Stories",
       description: "Discover how our students and franchise partners are achieving remarkable success and transforming their futures.",
-      imageUrl: "\success_story.avif",
+      imageUrl: "\success_story.jpg",
     },
 
     // next 3 image
     {
       title: "Innovative Tools",
       description: "Get updates on the newest tools and technologies we're integrating to enhance your learning experience.",
-      imageUrl: "\innovative_tools.avif",
+      imageUrl: "\innovative_tools.jpg",
     },
     {
       title: "Community Highlights",
@@ -33,7 +33,7 @@ const EventAcademy = () => {
     {
       title: "Exclusive Offers",
       description: "Stay tuned for special promotions, discounts, and opportunities to join our growing network of successful franchise partners.",
-      imageUrl: "\exclusive_offers.avif",
+      imageUrl: "\special-offer-creative-sale_logoimage.jpg",
     },
   
   ];
@@ -60,8 +60,11 @@ const EventAcademy = () => {
       </div>
        {/* button */}
        <div className="flex justify-center pb-10">
+       <a href="https://vowlink.com/">
                 <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">
-                  Stay Connected</button>
+                  Stay Connected
+                  </button>
+                  </a>
               </div>
     </div>
   );

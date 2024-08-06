@@ -66,9 +66,11 @@ const OpportunitySection = () => {
 
       {/* buttons explore now */}
       <div className='mt-14 mb-10 flex justify-center '>
+      <a href="https://vowlink.com/">
         <button className='bg-orange-500 rounded-lg px-12 py-3 text-white text-lg font-bold'>
             Get Now
           </button>
+          </a>
       </div>
     </div>
   );

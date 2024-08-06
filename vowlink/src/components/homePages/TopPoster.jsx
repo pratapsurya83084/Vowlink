@@ -23,9 +23,11 @@ const LandingPage = () => {
 
       </p>
       <div className="flex justify-center">
+        <a href="https://vowlink.com/">
         <button className="bg-orange-500 px-6 py-3 rounded text-white font-bold hover:bg-orange-600 transition-all shadow-lg animate-bounce">
           ENQUIRE NOW
         </button>
+        </a>
       </div>
     </div>
     {/* img right side */}

@@ -52,9 +52,11 @@ const AboutSections = () => {
 
               {/* button */}
               <div className="flex justify-center ">
+              <a href="https://vowlink.com/">
                 <button className="bg-orange-500 text-lg text-white font-bold px-10 py-3 mt-10 rounded-lg">
                   Starts Now
                   </button>
+                  </a>
               </div>
               
             </div>

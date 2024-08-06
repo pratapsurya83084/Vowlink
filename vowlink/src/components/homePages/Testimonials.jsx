@@ -440,7 +440,9 @@ const Testimonials = () => {
   
   {/* Button */}
   <div className="flex justify-center pb-10">
+  <a href="https://vowlink.com/">
     <button className="bg-orange-500 text-white font-bold px-14 text-xl py-4 mt-10 rounded-lg">Start Now</button>
+ </a>
   </div>
 </section>
 

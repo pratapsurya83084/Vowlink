@@ -425,7 +425,10 @@ const WhyChoosevl = () => {
         </div>
       </div>
       <div className='flex justify-center mt-5'>
+       
+      <a href="https://vowlink.com/">
         <button className='bg-orange-500 text-lg px-14 py-3 rounded-lg font-bold'>Get Now</button>
+      </a>
       </div>
     </div>
   )

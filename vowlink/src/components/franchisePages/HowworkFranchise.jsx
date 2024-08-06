@@ -110,9 +110,11 @@ const HowworkFranchise = () => {
         </div>
          {/* buttons explore now */}
          <div className='mt-1 mb-10 flex justify-center '>
+         <a href="https://vowlink.com/">
         <button className='bg-orange-500 rounded-lg px-10 md:px-14 py-3 text-white text-lg font-bold'>
              Build Now
           </button>
+          </a>
       </div>
       </section>
     </div>

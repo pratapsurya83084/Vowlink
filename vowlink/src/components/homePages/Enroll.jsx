@@ -40,9 +40,11 @@ const EnrollmentAndAdmissions = () => {
               </ul>
             </div>
             <div className="mt-6 lg:ml-10 flex justify-center gap-4">
+            <a href="https://vowlink.com/">
               <button className="inline-block px-10 py-3 text-base bg-orange-500 text-white font-bold rounded-md shadow">
                 Get Started Now!
               </button>
+              </a>
             </div>
           </div>
           {/* Image Section */}

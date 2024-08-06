@@ -17,10 +17,12 @@ const TwoButtons = () => {
         {/* <button className='bg-yellow-300 text-teal-900 font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-yellow-400 transition duration-300 w-full sm:w-auto'>
           Enroll in our courses
         </button> */}
+         <a href="https://vowlink.com/">
         <button className='bg-orange-500 text-white  font-semibold py-3 px-14 rounded shadow-lg hover:bg-orange-600 transition duration-300 w-full sm:w-auto'>
         
          About Us
         </button>
+        </a>
       </div>
     </div>
   );

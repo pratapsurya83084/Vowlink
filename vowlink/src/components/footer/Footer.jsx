@@ -1125,7 +1125,7 @@ console.log(currentYear,currentDate);
               <img
                 src="\bisjhintus_logos_vowlink.png"
                 alt="Logo"
-                className="h- w-[200px] mb-4 sm:mb-0"
+                className="h-  ml-5 w-[200px] mb-4 sm:mb-0"
               />
             </a>
             <div className="flex flex-1 sm:mt-10 mb-10">

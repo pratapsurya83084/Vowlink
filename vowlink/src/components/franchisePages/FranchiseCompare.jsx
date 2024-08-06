@@ -243,8 +243,11 @@ const FranchiseComparison = () => {
         </div>
       </div>
       {/* buttons explore now */}
+      
       <div className='mt-14 mb-14 flex justify-center '>
+      <a href="https://vowlink.com/">
         <button className='bg-orange-500 rounded-lg px-12 py-3 text-white text-lg font-bold'>Explore Now</button>
+      </a>
       </div>
     </div>
   );
